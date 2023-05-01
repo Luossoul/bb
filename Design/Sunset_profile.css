@@ -1,0 +1,752 @@
+@font-face { font-family: 'CenturyGothic';  src: local('CenturyGothic'), url('https://nomail.com.ua/files/woff/cfce6abbbff0099b15691345d8b94dcc.woff') format('woff'); }
+
+* {cursor: url(https://cur.cursors-4u.net/food/foo-5/foo500.cur), auto !important;} 
+
+/*Шапка*/
+/*лого*/
+.top_header [src$="./images/logo_new.png"] {content: url(https://beon.vip/uploads_user/10000/9848/d16202ec21e873bf58bc098f17802f49.png) !important; margin-bottom: 10px !important; margin-left: 120px !important;}
+.top_header {position: static !important; box-shadow: none !important; margin-bottom: -50px !important; margin-left:auto; margin-right:auto;  background: rgba(25, 1, 33, 0.8) !important; width: 100% !important; box-shadow: 0px 2px 1px #cf063c !important;}
+.top_header {height: 65px !important;}
+
+/*Все ссылки в шапке*/
+a.top_menu_item:visited { font-weight: bold !important;  font-size: 14px !important; margin-bottom: 5px !important; }
+a.top_menu_item:visited:hover { font-weight: bold !important; color: #c8fefe !important;}
+a.top_menu_item:link { font-weight: bold !important;  font-size: 14px !important; margin-bottom: 5px !important; }
+
+/*Убирает стрелочки из шапки*/
+.top_menu_link_container [src="./images/icons/menu_arrow.gif"] {display: none !important}
+
+/*колокольчик и стрелочка*/
+/*оповещение*/
+button#newupdates.button_down {background: url(https://beon.vip/uploads_user/10000/9848/8404d27f2b70b070253a75c9a22405ba.png) left no-repeat !important;
+box-shadow: none !important; padding-right: 45px !important;}
+/*оповещение*/
+button#newupdates.button_down {background: url(https://beon.vip/uploads_user/10000/9848/8404d27f2b70b070253a75c9a22405ba.png) left no-repeat; box-shadow: none; box-shadow: none !important; padding-right: 45px !important;}
+
+/*стрелочка*/
+.button_down {background: url(https://beon.vip/uploads_user/10000/9848/eb653f48bf43b659201aea687a047521.png) no-repeat !important;
+background-position: right !important; box-shadow: none !important; margin-left: 13px !important; width: 30px !important; height: 30px !important;}
+.button_down [src="/images/button_down.svg"] {display: none !important;}
+.button_down [src="/images/notify.svg"] {display: none !important;}
+
+/*оповещение красненькое*/
+.badge {margin-left: 28px !important;}
+
+/*Убирает иконки из меню*/
+.menu_icon2{display: none;}
+
+/*фон выпадающего меню*/
+.menu_dropdown {background: rgba(25, 1, 33) !important; box-shadow: 0px 0px 3px #cf063c !important; border-radius: 0px !important;}
+
+/*фон в выпадающем меню под текстом*/
+a.menu_item { background: transparent !important;
+color: #ed4e64 !important; border-radius: 0px !important; border: none !important;}
+
+/*фон в выпадающем меню под текстом при наведении*/
+a.menu_item:hover { background: transparent !important;  border-radius: 0px !important; border: none !important; color: #c8fefe !important; text-shadow: 0 0 6px !important; font-weight: bold !important;}
+
+/*Кнопка написать в дневник*/
+.btn-primary {background: none !important; border: none !important; text-align: center !important; margin-left: 10px !important; margin-bottom: 10px !important; border-radius: 0px !important; font-weight: bold !important;  font-size: 14px !important; color: #ed4e64 !important;}
+
+/*Кнопка написать в дневник при наведении*/
+.btn-primary:hover {background: none !important; border: none !important; text-align: center !important; margin-left: 10px !important; color: #c8fefe !important; text-shadow: 0 0 6px !important; margin-bottom: 10px !important; border-radius: 0px !important; font-weight: bold !important; font-size: 14px !important;}
+
+/*Фон*/
+body {background: url(https://i.ibb.co/fGGb1kz/argumented-city-4k-fd-3840x2400.jpg) #4f042b !important; background-position: center bottom !important; background-repeat: no-repeat !important; background-attachment: fixed !important; background-size: 100% !important; background-color: #4f042b !important;}
+
+/*Моб. Фон*/
+body {background: #4f042b; background-position: center bottom; background-repeat: no-repeat; background-attachment: fixed;}
+
+/*рамки, шрифт*/
+div, a, td {border: none !important; font-family: 'CenturyGothic'; font-weight: 400; font-style: normal; color: #ed4e64 !important; text-decoration: none !important;}
+
+/*Моб. рамки, шрифт*/
+div, a, td {border: none; font-family: 'CenturyGothic'; font-weight: 400; font-style: normal; color: #ed4e64; text-decoration: none;}
+
+/*Загрузка*/
+[src="/images/page_load.gif"] {content: url(https://beon.vip/uploads_user/10000/9848/873f7fbc9814970b88ca6bf9d8bd1c17.gif); position: center; margin-top: 80px;}
+
+.profile_leftside { display: inline-block !important; vertical-align: top; width: 270px !important; margin-right: 40px !important;}
+
+.profile_rightside {background: rgba(25, 1, 33, 0.8) !important; width: 950px !important; padding: 20px !important; margin-left: 60px !important; margin-bottom: 20px !important; border-radius: 0px 40px 0px 0px !important; box-shadow: 2px 0px 6px #cf063c !important;}
+
+.page_header {font-size: 14px !important; text-align: center; border: none !important; border-radius: 40px !important; background: rgba(25, 1, 33, 0.8) !important; margin-left: auto !important; margin-right: auto !important; margin-bottom: 20px !important; box-shadow: 0px 0px 3px #cf063c !important; color: #c8fefe !important;  text-shadow: 0 0 6px !important; font-weight: bold !important; padding: 5px !important;}
+
+/*Моб.*/
+.page_header {font-size: 14px; text-align: center; border: none; border-radius: 40px; background: rgba(25, 1, 33, 0.8); margin-left: auto; margin-right: auto; margin-bottom: 20px; box-shadow: 0px 0px 3px #cf063c; color: #c8fefe; text-shadow: 0 0 6px; font-weight: bold; padding: 5px;}
+
+/*Убираем иконки*/
+.icon {display: none;}
+
+/*Подарить подарок*/
+.profile_menu1 a,
+.nolink {font-size: 14px !important; text-align: center; border: none !important; border-radius: 40px !important; background: rgba(25, 1, 33, 0.8) !important; margin-left: auto !important; margin-right: auto !important; margin-bottom: 20px !important; box-shadow: 0px 0px 3px #cf063c !important; border: none !important;}
+
+.profile_menu1 a:hover {font-size: 14px !important; text-align: center; border: none !important; border-radius: 40px !important; background: rgba(25, 1, 33, 0.8) !important; margin-left: auto !important; margin-right: auto !important; margin-bottom: 20px !important; box-shadow: 0px 0px 3px #cf063c !important; border: none !important; color: #c8fefe !important;  text-shadow: 0 0 6px !important; font-weight: bold !important; }
+
+/*Моб. Подарить подарок*/
+.profile_menu1 a,
+.nolink {font-size: 14px; text-align: center; border: none; border-radius: 40px; background: rgba(25, 1, 33, 0.8); margin-left: auto; margin-right: auto; margin-bottom: 20px; box-shadow: 0px 0px 3px #cf063c; border: none;}
+
+.profile_menu1 a:hover {font-size: 14px; text-align: center; border: none; border-radius: 40px; background: rgba(25, 1, 33, 0.8); margin-left: auto; margin-right: auto; margin-bottom: 20px; box-shadow: 0px 0px 3px #cf063c; border: none; color: #c8fefe;  text-shadow: 0 0 6px; font-weight: bold; }
+
+table.profile_menu {border: none !important; border: none;}
+
+.header {text-align: center !important; font-size: 15px !important; text-transform: uppercase !important; font-weight: 600 !important;  border-radius: 0px 40px 40px 0px !important; background-image: linear-gradient(to right, transparent 0%, #cf063c 100%) !important; color: #c8fefe !important; }
+
+/*Моб.*/
+.header {text-align: center; font-size: 15px; text-transform: uppercase; font-weight: 600;  border-radius: 0px 40px 40px 0px; background-image: linear-gradient(to right, transparent 0%, #cf063c 100%); color: #c8fefe; }
+
+.profile {background: rgba(25, 1, 33, 0.6) !important; box-shadow: 0px 0px 3px #cf063c !important; padding-top: 10px !important; margin-to: 10px !important;}
+
+/*Моб.*/
+.profile {background: rgba(25, 1, 33, 0.6); box-shadow: 0px 0px 3px #cf063c; padding-top: 10px; margin-to: 10px;}
+
+
+/*Моб.*/
+.profile_profile {background: rgba(25, 1, 33, 0.8); padding: 20px !important; border-radius: 0px 40px 0px 0px; box-shadow: 2px 0px 6px #cf063c;}
+
+
+/*Полоса прокрутки*/
+::-webkit-scrollbar { width: 6px; height: 5px; border-radius: 0px;}
+::-webkit-scrollbar-button {  background-color: none; }
+::-webkit-scrollbar-track { background-color: rgba(25, 1, 33, 0.8); border-radius: 0px;}
+::-webkit-scrollbar-track-piece { background-image: linear-gradient(to bottom, transparent 0%, #cf063c 100%);  border-radius: 0px;}
+::-webkit-scrollbar-thumb { height: 20px; background-color: #cf063c; border-radius: 0px;}
+::-webkit-scrollbar-corner { background-image: linear-gradient(to bottom, transparent 0%, #cf063c 100%);  border-radius: 0px;}
+::-webkit-resizer { background-color: #ffffff; border-radius: 0px; }
+
+.he_styler_customize_btn {display: none !important; display: none;}
+
+/*Выбор аватарки*/
+div#postcomment_userphotos {width: 100px !important; background: none !important; border: none !important; border-radius: 0px !important; margin-left: 15px !important;  background-image: linear-gradient(to bottom, transparent 0%, #cf063c 100%) !important;}
+.userphoto_selected {background-color: #c8fefe !important; border-radius: 0px !important; border: none !important;}
+.img-thumbnail {border-radius: 0px !important;}
+
+/*Моб. Выбор аватарки*/
+div#postcomment_userphotos { background: none; border: none; border-radius: 0px !important; background-image: linear-gradient(to bottom, transparent 0%, #cf063c 100%);}
+.userphoto_selected {background-color: #c8fefe; border-radius: 0px; border: none;}
+.img-thumbnail {border-radius: 0px;}
+
+/*Окно оповещений*/
+.modal-content { background: rgba(25, 1, 33) !important; border-radius: 0px 40px 0px 0px !important; box-shadow: 2px 0px 6px #cf063c !important;}
+.modal-title {position: center !important;}
+.btn.btn-secondary {background: #cf063c !important; text-align: center !important; border-radius: 0px !important; border: none !important; color: rgba(25, 1, 33) !important; font-weight: bold !important;}
+.btn.btn-secondary:hover {background: #cf063c !important; text-align: center !important; border-radius: 0px !important; border: none !important; color: #c8fefe !important; font-weight: bold !important;}
+
+/*Моб. Окно оповещений*/
+.modal-content { background: rgba(25, 1, 33); border-radius: 0px 40px 0px 0px; box-shadow: 2px 0px 6px #cf063c;}
+.modal-title {position: center !important;}
+.btn.btn-secondary {background: #cf063c; text-align: center; border-radius: 0px; border: none; color: rgba(25, 1, 33); font-weight: bold;}
+.btn.btn-secondary:hover {background: #cf063c; text-align: center; border-radius: 0px; border: none; color: #c8fefe; font-weight: bold;}
+
+/*Окно удалить комментарий*/
+div#TB_window {background: rgba(25, 1, 33) !important; border-radius: 0px 40px 0px 0px !important; box-shadow: 2px 0px 6px #cf063c !important;}
+input.button { background: #cf063c !important; text-align: center !important; border-radius: 0px !important; border: none !important; color: rgba(25, 1, 33) !important; font-weight: bold !important;}
+input.button:hover { background: #cf063c !important; text-align: center !important; border-radius: 0px !important; border: none !important; color: #c8fefe !important; font-weight: bold !important;}
+
+/*Моб. Окно удалить комментарий*/
+div#TB_window {background: rgba(25, 1, 33); border-radius: 0px 40px 0px 0px; box-shadow: 2px 0px 6px #cf063c;}
+input.button { background: #cf063c; text-align: center; border-radius: 0px; border: none; color: rgba(25, 1, 33); font-weight: bold;}
+input.button:hover { background: #cf063c; text-align: centert; border-radius: 0px; border: none; color: #c8fefe; font-weight: bold;}
+
+/*профиль,друзья и тд */
+.profile_tab a,
+.profile_tab {
+background: none !important;
+text-align: center !important;
+border-radius: 0px !important;}
+
+/*профиль,друзья и тд при нажатии*/
+.profile_tab2 a {background: none !important; text-align: center !important; border-radius: 0px !important; color: #c8fefe !important; text-shadow: 0 0 6px !important; font-weight: bold !important;}
+
+/*Моб.*/
+/*профиль,друзья и тд */
+.profile_tab a,
+.profile_tab {
+background: none;
+text-align: center;
+border-radius: 0px;}
+
+/*профиль,друзья и тд при нажатии*/
+.profile_tab2 a {background: none; text-align: center; border-radius: 0px; color: #c8fefe; text-shadow: 0 0 6px; font-weight: bold;}
+
+/*Мобильная версия*/
+
+#mobile_photo_wrap{background: #030d23;}
+#mobile_menu .menu_item_dropdown a {background: #030d23;}
+#mobile_menu .menu_item_dropdown a:hover {background: #030d23;}
+.portal_spacer {background: #030d23;}
+
+/*логомоб*/
+nav .p-1 {
+background: url(https://beon.vip/uploads_user/10000/9848/d16202ec21e873bf58bc098f17802f49.png) no-repeat;
+-webkit-background-size:100px,50px; position:relative; right: 10px; top: 8px;}
+nav.top_menu .p-1 a {
+opacity: 0;}
+.top_menu img {
+opacity: 0;}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu{background: rgba(25, 1, 33, 0.8); box-shadow: 0px 2px 1px #cf063c; border: none;}
+
+/*Кнопка вниз*/
+.btn.btn-outline-success {border: none; box-shadow: 0px 0px 6px #0399ea; text-align: center; border-radius: 20px 20px 20px 20px; color: #66b1ff;}
+div#profile_profile {border: none;}  
+
+#mobile_menu {background: #030d23;}
+
+/*Меню в шапке*/
+@font-face { font-family: 'CenturyGothic';  src: local('CenturyGothic'), url('https://nomail.com.ua/files/woff/cfce6abbbff0099b15691345d8b94dcc.woff') format('woff'); }
+
+/*Шапка*/
+/*лого*/
+.top_header [src$="./images/logo_new.png"] {content: url(https://beon.vip/uploads_user/10000/9848/d16202ec21e873bf58bc098f17802f49.png) !important; margin-bottom: 10px !important; margin-left: 120px !important;}
+.top_header {position: static !important; box-shadow: none !important; margin-bottom: -50px !important; margin-left:auto; margin-right:auto;  background: rgba(25, 1, 33, 0.8) !important; width: 100% !important; box-shadow: 0px 2px 1px #cf063c !important;}
+.top_header {height: 65px !important;}
+
+/*Все ссылки в шапке*/
+a.top_menu_item:visited { font-weight: bold !important;  font-size: 14px !important; margin-bottom: 5px !important; }
+a.top_menu_item:visited:hover { font-weight: bold !important; color: #c8fefe !important;}
+a.top_menu_item:link { font-weight: bold !important;  font-size: 14px !important; margin-bottom: 5px !important; }
+
+/*Убирает стрелочки из шапки*/
+.top_menu_link_container [src="./images/icons/menu_arrow.gif"] {display: none !important}
+
+/*колокольчик и стрелочка*/
+/*оповещение*/
+button#newupdates.button_down {background: url(https://beon.vip/uploads_user/10000/9848/8404d27f2b70b070253a75c9a22405ba.png) left no-repeat !important;
+box-shadow: none !important; padding-right: 45px !important;}
+/*оповещение*/
+button#newupdates.button_down {background: url(https://beon.vip/uploads_user/10000/9848/8404d27f2b70b070253a75c9a22405ba.png) left no-repeat; box-shadow: none; box-shadow: none !important; padding-right: 45px !important;}
+
+/*стрелочка*/
+.button_down {background: url(https://beon.vip/uploads_user/10000/9848/eb653f48bf43b659201aea687a047521.png) no-repeat !important;
+background-position: right !important; box-shadow: none !important; margin-left: 13px !important; width: 30px !important; height: 30px !important;}
+.button_down [src="/images/button_down.svg"] {display: none !important;}
+.button_down [src="/images/notify.svg"] {display: none !important;}
+
+/*оповещение красненькое*/
+.badge {margin-left: 28px !important;}
+
+/*Убирает иконки из меню*/
+.menu_icon2{display: none;}
+
+/*фон выпадающего меню*/
+.menu_dropdown {background: rgba(25, 1, 33) !important; box-shadow: 0px 0px 3px #cf063c !important; border-radius: 0px !important;}
+
+/*фон в выпадающем меню под текстом*/
+a.menu_item { background: transparent !important;
+color: #ed4e64 !important; border-radius: 0px !important; border: none !important;}
+
+/*фон в выпадающем меню под текстом при наведении*/
+a.menu_item:hover { background: transparent !important;  border-radius: 0px !important; border: none !important; color: #c8fefe !important; text-shadow: 0 0 6px !important; font-weight: bold !important;}
+
+/*Кнопка написать в дневник*/
+.btn-primary {background: none !important; border: none !important; text-align: center !important; margin-left: 10px !important; margin-bottom: 10px !important; border-radius: 0px !important; font-weight: bold !important;  font-size: 14px !important; color: #ed4e64 !important;}
+
+/*Кнопка написать в дневник при наведении*/
+.btn-primary:hover {background: none !important; border: none !important; text-align: center !important; margin-left: 10px !important; color: #c8fefe !important; text-shadow: 0 0 6px !important; margin-bottom: 10px !important; border-radius: 0px !important; font-weight: bold !important; font-size: 14px !important;}
+
+/*Фон*/
+body {background: url(https://i.postimg.cc/hgrKqvB2/argumented-city-4k-fd-3840x2400.jpg) !important; background-position: center bottom !important; background-repeat: no-repeat !important; background-attachment: fixed !important; background-size: 100% !important;}
+
+/*Моб. Фон*/
+body {background: #4f042b; background-position: center bottom; background-repeat: no-repeat; background-attachment: fixed;}
+
+/*рамки, шрифт*/
+div, a, td {border: none !important; font-family: 'CenturyGothic'; font-weight: 400; font-style: normal; color: #ed4e64 !important; text-decoration: none !important;}
+
+/*Моб. рамки, шрифт*/
+div, a, td {border: none; font-family: 'CenturyGothic'; font-weight: 400; font-style: normal; color: #ed4e64; text-decoration: none;}
+
+/*Загрузка*/
+[src="/images/page_load.gif"] {content: url(https://beon.vip/uploads_user/10000/9848/873f7fbc9814970b88ca6bf9d8bd1c17.gif); position: center; margin-top: 80px;}
+
+.content {width: 1200px !important;}
+
+.profile_leftside { display: inline-block !important; vertical-align: top; width: 270px !important; margin-right: 40px !important;}
+
+
+
+.page_header {font-size: 14px !important; text-align: center; border: none !important; border-radius: 40px !important; background: rgba(25, 1, 33, 0.8) !important; margin-left: auto !important; margin-right: auto !important; margin-bottom: 20px !important; box-shadow: 0px 0px 3px #cf063c !important; color: #c8fefe !important;  text-shadow: 0 0 6px !important; font-weight: bold !important; padding: 5px !important;}
+
+/*Моб.*/
+.page_header {font-size: 14px; text-align: center; border: none; border-radius: 40px; background: rgba(25, 1, 33, 0.8); margin-left: auto; margin-right: auto; margin-bottom: 20px; box-shadow: 0px 0px 3px #cf063c; color: #c8fefe; text-shadow: 0 0 6px; font-weight: bold; padding: 5px;}
+
+/*Убираем иконки*/
+.icon {display: none;}
+
+/*Подарить подарок*/
+.profile_menu1 a,
+.nolink {font-size: 14px !important; text-align: center; border: none !important; border-radius: 40px !important; background: rgba(25, 1, 33, 0.8) !important; margin-left: auto !important; margin-right: auto !important; margin-bottom: 20px !important; box-shadow: 0px 0px 3px #cf063c !important; border: none !important;}
+
+.profile_menu1 a:hover {font-size: 14px !important; text-align: center; border: none !important; border-radius: 40px !important; background: rgba(25, 1, 33, 0.8) !important; margin-left: auto !important; margin-right: auto !important; margin-bottom: 20px !important; box-shadow: 0px 0px 3px #cf063c !important; border: none !important; color: #c8fefe !important;  text-shadow: 0 0 6px !important; font-weight: bold !important; }
+
+/*Моб. Подарить подарок*/
+.profile_menu1 a,
+.nolink {font-size: 14px; text-align: center; border: none; border-radius: 40px; background: rgba(25, 1, 33, 0.8); margin-left: auto; margin-right: auto; margin-bottom: 20px; box-shadow: 0px 0px 3px #cf063c; border: none;}
+
+.profile_menu1 a:hover {font-size: 14px; text-align: center; border: none; border-radius: 40px; background: rgba(25, 1, 33, 0.8); margin-left: auto; margin-right: auto; margin-bottom: 20px; box-shadow: 0px 0px 3px #cf063c; border: none; color: #c8fefe;  text-shadow: 0 0 6px; font-weight: bold; }
+
+table.profile_menu {border: none !important; border: none;}
+
+.header {text-align: center !important; font-size: 15px !important; text-transform: uppercase !important; font-weight: 600 !important;  border-radius: 0px 40px 40px 0px !important; background-image: linear-gradient(to right, transparent 0%, #cf063c 100%) !important; color: #c8fefe !important; }
+
+/*Моб.*/
+.header {text-align: center; font-size: 15px; text-transform: uppercase; font-weight: 600;  border-radius: 0px 40px 40px 0px; background-image: linear-gradient(to right, transparent 0%, #cf063c 100%); color: #c8fefe; }
+
+.profile {background: rgba(25, 1, 33, 0.6) !important; box-shadow: 0px 0px 3px #cf063c !important; padding-top: 10px !important; margin-to: 10px !important;}
+
+/*Моб.*/
+.profile {background: rgba(25, 1, 33, 0.6); box-shadow: 0px 0px 3px #cf063c; padding-top: 10px; margin-to: 10px;}
+
+
+
+/*Моб.*/
+.profile_profile {background: rgba(25, 1, 33, 0.8); padding: 20px !important; border-radius: 0px 40px 0px 0px; box-shadow: 2px 0px 6px #cf063c;}
+
+
+/*Полоса прокрутки*/
+::-webkit-scrollbar { width: 12px; height: 5px; border-radius: 0px;}
+::-webkit-scrollbar-button { background-color: rgba(25, 1, 33, 0.8); }
+::-webkit-scrollbar-track { background-color: rgba(25, 1, 33, 0.8); border-radius: 0px;}
+::-webkit-scrollbar-track-piece { background-image: linear-gradient(to bottom, transparent 0%, #cf063c 100%);  border-radius: 0px;}
+::-webkit-scrollbar-thumb { height: 20px; background-color: #cf063c; border-radius: 0px;}
+::-webkit-scrollbar-corner { background-image: linear-gradient(to bottom, transparent 0%, #cf063c 100%);  border-radius: 0px;}
+::-webkit-resizer { background-color: #ffffff; border-radius: 0px; }
+
+.he_styler_customize_btn {display: none !important; display: none;}
+
+/*Выбор аватарки*/
+div#postcomment_userphotos {width: 100px !important; background: none !important; border: none !important; border-radius: 0px !important; margin-left: 15px !important;  background-image: linear-gradient(to bottom, transparent 0%, #cf063c 100%) !important;}
+.userphoto_selected {background-color: #c8fefe !important; border-radius: 0px !important; border: none !important;}
+.img-thumbnail {border-radius: 0px !important;}
+
+/*Моб. Выбор аватарки*/
+div#postcomment_userphotos { background: none; border: none; border-radius: 0px !important; background-image: linear-gradient(to bottom, transparent 0%, #cf063c 100%);}
+.userphoto_selected {background-color: #c8fefe; border-radius: 0px; border: none;}
+.img-thumbnail {border-radius: 0px;}
+
+/*Окно оповещений*/
+.modal-content { background: rgba(25, 1, 33) !important; border-radius: 0px 40px 0px 0px !important; box-shadow: 2px 0px 6px #cf063c !important;}
+.modal-title {position: center !important;}
+.btn.btn-secondary {background: #cf063c !important; text-align: center !important; border-radius: 0px !important; border: none !important; color: rgba(25, 1, 33) !important; font-weight: bold !important;}
+.btn.btn-secondary:hover {background: #cf063c !important; text-align: center !important; border-radius: 0px !important; border: none !important; color: #c8fefe !important; font-weight: bold !important;}
+
+/*Моб. Окно оповещений*/
+.modal-content { background: rgba(25, 1, 33); border-radius: 0px 40px 0px 0px; box-shadow: 2px 0px 6px #cf063c;}
+.modal-title {position: center !important;}
+.btn.btn-secondary {background: #cf063c; text-align: center; border-radius: 0px; border: none; color: rgba(25, 1, 33); font-weight: bold;}
+.btn.btn-secondary:hover {background: #cf063c; text-align: center; border-radius: 0px; border: none; color: #c8fefe; font-weight: bold;}
+
+/*Окно удалить комментарий*/
+div#TB_window {background: rgba(25, 1, 33) !important; border-radius: 0px 40px 0px 0px !important; box-shadow: 2px 0px 6px #cf063c !important;}
+input.button { background: #cf063c !important; text-align: center !important; border-radius: 0px !important; border: none !important; color: rgba(25, 1, 33) !important; font-weight: bold !important;}
+input.button:hover { background: #cf063c !important; text-align: center !important; border-radius: 0px !important; border: none !important; color: #c8fefe !important; font-weight: bold !important;}
+
+/*Моб. Окно удалить комментарий*/
+div#TB_window {background: rgba(25, 1, 33); border-radius: 0px 40px 0px 0px; box-shadow: 2px 0px 6px #cf063c;}
+input.button { background: #cf063c; text-align: center; border-radius: 0px; border: none; color: rgba(25, 1, 33); font-weight: bold;}
+input.button:hover { background: #cf063c; text-align: center; border-radius: 0px; border: none; color: #c8fefe; font-weight: bold;}
+
+/*профиль,друзья и тд */
+.profile_tab a,
+.profile_tab {
+background: none !important;
+text-align: center !important;
+border-radius: 0px !important;}
+
+/*профиль,друзья и тд при нажатии*/
+.profile_tab2 a {background: none !important; text-align: center !important; border-radius: 0px !important; color: #c8fefe !important; text-shadow: 0 0 6px !important; font-weight: bold !important;}
+
+/*Моб. ТУТ*/
+/*профиль,друзья и тд */
+.profile_tab a,
+.profile_tab {
+text-align: center;
+background: none; 
+}
+
+
+/*профиль,друзья и тд при нажатии*/
+.profile_tab2 a {background: none; text-align: center; border-radius: 0px; color: #c8fefe; text-shadow: 0 0 6px; font-weight: bold;}
+
+/*Мобильная версия*/
+
+#mobile_photo_wrap{background: rgba(25, 1, 33);}
+#mobile_menu .menu_item_dropdown a {background: rgba(25, 1, 33);}
+#mobile_menu .menu_item_dropdown a:hover {background: rgba(25, 1, 33);}
+.portal_spacer {background: rgba(25, 1, 33);}
+
+/*логомоб*/
+nav .p-1 {
+background: url(https://beon.vip/uploads_user/10000/9848/d16202ec21e873bf58bc098f17802f49.png) no-repeat;
+-webkit-background-size:100px,50px; position:relative; right: 10px; top: 4px;}
+nav.top_menu .p-1 a {
+opacity: 0;}
+.top_menu img {
+opacity: 0;}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu{background: rgba(25, 1, 33, 0.8); box-shadow: 0px 2px 1px #cf063c; border: none;}
+
+/*Кнопка вниз*/
+.btn.btn-outline-success {border: none; text-align: center; color: #c8fefe; text-shadow: 0 0 6px; font-weight: bold; box-shadow: none;}
+div#profile_profile {border: none;}  
+
+#mobile_menu {background: #030d23;}
+
+/*Меню в шапке*/
+.navbar-light .navbar-toggler {border-color:transparent;}
+.navbar-light .navbar-toggler-icon {background-image: url(https://beon.vip/uploads_user/10000/9848/3aedf9d5571b22a8e6fe492bb4acc502.png);
+background-size:contain;}
+.navbar-light .navbar-toggler:focus {outline:none;}
+
+img.photo {border: none; box-shadow: 0px 0px 3px #cf063c;}
+
+/*Написать в дневник*/
+button.btn.btn-primary {background: #cf063c; border: none; color: #c8fefe; font-weght: bold;}
+
+img.gift-photo {transform: scale(0.6) !important; transform: scale(0.6);}
+
+.browse_friends_result {background: none !important; background: none;}
+
+/*Фото профиля*/
+.profile_photo img {content: url(https://beon.vip/uploads_user/10000/9215/d024daf821dc1de872d3dda99cd7f968.png) !important; border: none !important; width: 120px !important; box-shadow: 0px 0px 3px #cf063c !important;}
+
+/*Моб. Фото профиля*/
+.profile_photo img {content: url(https://beon.vip/uploads_user/10000/9215/d024daf821dc1de872d3dda99cd7f968.png); border: none; width: 120px; box-shadow: 0px 0px 3px #cf063c;}
+
+[href="https://beon.vip/johnny/"]{ color: #c8fefe; text-shadow: 0 0 6px; font-weight: bold; color: #c8fefe !important; text-shadow: 0 0 6px !important; font-weight: bold !important;}
+
+button.close {display: none !important; display: none;}
+
+.button_down {
+outline: none !important; 
+}
+
+.button_down {
+outline: none;
+}
+
+.btn.btn-success {
+background: transparent !important;
+background: none !important; 
+border: none !important; 
+text-align: center !important; 
+margin-left: 10px !important; 
+margin-bottom: 10px !important; 
+border-radius: 0px !important; 
+font-weight: bold !important;  
+font-size: 14px !important; 
+color: #ed4e64 !important;
+}
+
+.btn.btn-success:hover {
+background: none !important; 
+border: none !important; 
+text-align: center !important; 
+margin-left: 10px !important; 
+color: #c8fefe !important; 
+text-shadow: 0 0 6px !important; 
+margin-bottom: 10px !important; 
+border-radius: 0px !important; 
+font-weight: bold !important; 
+font-size: 14px !important;
+} 
+
+
+/*Отмена нового диза*/
+
+.profile_content {
+border: none !important;
+margin: none !important;
+}
+
+/*@import url('/image_proxy.php?url=https://cagejohnny.github.io/beon.vip/reset.css');
+@import url('/image_proxy.php?url=https://beon.vip/templates/styles_global.css');
+@import url('/image_proxy.php?url=https://beon.vip/templates/styles.css');
+@import url('https://beon.vip/templates/bootstrap.css);
+@import url('https://beon.vip/templates/styles_player.css);
+@import url('https://beon.vip/templates/styles_blog.css);
+@import url('https://beon.vip/templates/he_styles.css);
+@import url('https://beon.vip/templates/he_quiz_styles.css);
+@import url('https://beon.vip/templates/styles_group.css);
+@import url('https://beon.vip/templates/styles_album.css);*/
+@import url('/image_proxy.php?url=https://cagejohnny.github.io/beon.vip/Ulitoska/styles.css')
+
+
+
+
+Профиль 2 (29.04.2023)
+@font-face { font-family: 'CenturyGothic';  src: local('CenturyGothic'), url('https://nomail.com.ua/files/woff/cfce6abbbff0099b15691345d8b94dcc.woff') format('woff'); }
+
+* {cursor: url(https://cur.cursors-4u.net/food/foo-5/foo500.cur), auto !important;} 
+
+/*Шапка*/
+/*лого*/
+.top_header [src$="./images/logo_new.png"] {content: url(https://beon.vip/uploads_user/10000/9848/d16202ec21e873bf58bc098f17802f49.png) !important; margin-bottom: 10px !important; 
+margin-left: 120px !important;}
+.top_header {position: static !important; 
+box-shadow: none !important; 
+margin-bottom: -50px !important; 
+margin-left:auto; margin-right:auto;
+background: rgba(25, 1, 33, 0.8) !important; 
+width: 100% !important; 
+box-shadow: 0px 2px 1px #cf063c !important;}
+.top_header {
+height: 65px !important;}
+
+/*Все ссылки в шапке*/
+a.top_menu_item:visited { font-weight: bold !important;  font-size: 14px !important; margin-bottom: 5px !important; }
+a.top_menu_item:visited:hover { font-weight: bold !important; color: #c8fefe !important;}
+a.top_menu_item:link { font-weight: bold !important;  font-size: 14px !important; margin-bottom: 5px !important; }
+
+/*колокольчик и стрелочка*/
+/*оповещение*/
+button#newupdates.button_down {background: url(https://beon.vip/uploads_user/10000/9848/8404d27f2b70b070253a75c9a22405ba.png) left no-repeat !important;
+box-shadow: none !important; padding-right: 45px !important;}
+/*оповещение*/
+button#newupdates.button_down {background: url(https://beon.vip/uploads_user/10000/9848/8404d27f2b70b070253a75c9a22405ba.png) left no-repeat; box-shadow: none; box-shadow: none !important; padding-right: 45px !important;}
+
+/*стрелочка*/
+.button_down {background: url(https://beon.vip/uploads_user/10000/9848/eb653f48bf43b659201aea687a047521.png) no-repeat !important;
+background-position: right !important; box-shadow: none !important; margin-left: 13px !important; width: 30px !important; height: 30px !important;}
+.button_down [src="/images/button_down.svg"] {display: none !important;}
+.button_down [src="/images/notify.svg"] {display: none !important;}
+
+/*оповещение красненькое*/
+.badge {margin-left: 28px !important;}
+
+/*Убирает иконки из меню*/
+.menu_icon2{display: none;}
+
+/*фон выпадающего меню*/
+.menu_dropdown {
+background: transparent !important; 
+border-radius: 0px !important;
+border: none !important;}
+
+/*фон в выпадающем меню под текстом*/
+a.menu_item { background: rgba(25, 1, 33) !important; 
+color: #ed4e64 !important; border-radius: 0px !important; border: none !important;}
+
+/*фон в выпадающем меню под текстом при наведении*/
+a.menu_item:hover { background: transparent !important;  border-radius: 0px !important; border: none !important; color: #c8fefe !important; text-shadow: 0 0 6px !important; font-weight: bold !important;}
+
+/*Кнопка написать в дневник*/
+.btn-primary {background: none !important; border: none !important; text-align: center !important; margin-left: 10px !important; margin-bottom: 10px !important; border-radius: 0px !important; font-weight: bold !important;  font-size: 14px !important; color: #ed4e64 !important;}
+
+/*Кнопка написать в дневник при наведении*/
+.btn-primary:hover {background: none !important; border: none !important; text-align: center !important; margin-left: 10px !important; color: #c8fefe !important; text-shadow: 0 0 6px !important; margin-bottom: 10px !important; border-radius: 0px !important; font-weight: bold !important; font-size: 14px !important;}
+
+/*Фон*/
+body {background: url(https://i.ibb.co/fGGb1kz/argumented-city-4k-fd-3840x2400.jpg) #4f042b !important; background-position: center bottom !important; background-repeat: no-repeat !important; background-attachment: fixed !important; background-size: 100% !important; background-color: #4f042b !important;}
+
+/*Моб. Фон*/
+body {background: #4f042b; background-position: center bottom; background-repeat: no-repeat; background-attachment: fixed;}
+
+/*рамки, шрифт*/
+div, a, td {border: none !important; font-family: 'CenturyGothic'; font-weight: 400; font-style: normal; color: #ed4e64 !important; text-decoration: none !important;}
+
+/*Моб. рамки, шрифт*/
+div, a, td {border: none; font-family: 'CenturyGothic'; font-weight: 400; font-style: normal; color: #ed4e64; text-decoration: none;}
+
+/*Загрузка*/
+[src="/images/page_load.gif"] {content: url(https://beon.vip/uploads_user/10000/9848/873f7fbc9814970b88ca6bf9d8bd1c17.gif); position: center; margin-top: 80px;}
+
+.profile_content {width: 100% !important; margin-left: auto !important; margin-left: auto !important;}
+
+.profile_leftside {vertical-align: top; width: 270px !important; margin-right: 40px !important;}
+
+.profile_rightside {background: rgba(25, 1, 33, 0.8) !important; width: 950px !important; padding: 20px !important; margin-left: 60px !important; margin-bottom: 20px !important; border-radius: 0px 40px 0px 0px !important; box-shadow: 2px 0px 6px #cf063c !important;}
+
+.page_header {font-size: 14px !important; text-align: center; border: none !important; border-radius: 40px !important; background: rgba(25, 1, 33, 0.8) !important; margin-left: auto !important; margin-right: auto !important; margin-bottom: 20px !important; box-shadow: 0px 0px 3px #cf063c !important; color: #c8fefe !important;  text-shadow: 0 0 6px !important; font-weight: bold !important; padding: 5px !important;}
+
+/*Моб.*/
+.page_header {font-size: 14px; text-align: center; border: none; border-radius: 40px; background: rgba(25, 1, 33, 0.8); margin-left: auto; margin-right: auto; margin-bottom: 20px; box-shadow: 0px 0px 3px #cf063c; color: #c8fefe; text-shadow: 0 0 6px; font-weight: bold; padding: 5px; border-radius: 40px !important;}
+
+/*Подарить подарок*/
+.profile_menu1 a,
+.nolink {font-size: 14px !important; text-align: center; border: none !important; border-radius: 40px !important; background: rgba(25, 1, 33, 0.8) !important; margin-left: auto !important; margin-right: auto !important; margin-bottom: 20px !important; box-shadow: 0px 0px 3px #cf063c !important; border: none !important;}
+
+.profile_menu1 a:hover {font-size: 14px !important; text-align: center; border: none !important; border-radius: 40px !important; background: rgba(25, 1, 33, 0.8) !important; margin-left: auto !important; margin-right: auto !important; margin-bottom: 20px !important; box-shadow: 0px 0px 3px #cf063c !important; border: none !important; color: #c8fefe !important;  text-shadow: 0 0 6px !important; font-weight: bold !important; }
+
+/*Моб. Подарить подарок*/
+.profile_menu1 a,
+.nolink {font-size: 14px; text-align: center; border: none; border-radius: 40px; background: rgba(25, 1, 33, 0.8); margin-left: auto; margin-right: auto; margin-bottom: 20px; box-shadow: 0px 0px 3px #cf063c; border: none;}
+
+.profile_menu1 a:hover {font-size: 14px; text-align: center; border: none; border-radius: 40px; background: rgba(25, 1, 33, 0.8); margin-left: auto; margin-right: auto; margin-bottom: 20px; box-shadow: 0px 0px 3px #cf063c; border: none; color: #c8fefe;  text-shadow: 0 0 6px; font-weight: bold; }
+
+table.profile_menu {border: none !important; border: none;}
+
+.header {text-align: center !important; font-size: 15px !important; text-transform: uppercase !important; font-weight: 600 !important;  border-radius: 0px 40px 40px 0px !important; background-image: linear-gradient(to right, transparent 0%, #cf063c 100%) !important; color: #c8fefe !important; border: none !important; border-radius: 40px !important; border: none !important;}
+
+/*Моб.*/
+.header {text-align: center; font-size: 15px; text-transform: uppercase; font-weight: 600;  border-radius: 0px 40px 40px 0px; background-image: linear-gradient(to right, transparent 0%, #cf063c 100%); color: #c8fefe; border: none; border-radius: 40px !important;}
+
+.profile {background: rgba(25, 1, 33, 0.6) !important; box-shadow: 0px 0px 3px #cf063c !important; padding-top: 10px !important; margin-to: 10px !important;}
+
+/*Моб.*/
+.profile {background: rgba(25, 1, 33, 0.6); box-shadow: 0px 0px 3px #cf063c; padding-top: 10px; margin-to: 10px;}
+
+/*Моб.*/
+.profile_profile {background: rgba(25, 1, 33, 0.8); padding: 20px !important; border-radius: 0px 40px 0px 0px; box-shadow: 2px 0px 6px #cf063c;}
+
+/*Полоса прокрутки*/
+::-webkit-scrollbar { width: 12px; height: 5px; border-radius: 0px;}
+::-webkit-scrollbar-button { background-color: rgba(25, 1, 33, 0.8); }
+::-webkit-scrollbar-track { background-color: rgba(25, 1, 33, 0.8); border-radius: 0px;}
+::-webkit-scrollbar-track-piece { background-image: linear-gradient(to bottom, transparent 0%, #cf063c 100%);  border-radius: 0px;}
+::-webkit-scrollbar-thumb { height: 20px; background-color: #cf063c; border-radius: 0px;}
+::-webkit-scrollbar-corner { background-image: linear-gradient(to bottom, transparent 0%, #cf063c 100%);  border-radius: 0px;}
+::-webkit-resizer { background-color: #ffffff; border-radius: 0px; }
+
+.he_styler_customize_btn {display: none !important; display: none;}
+
+/*Выбор аватарки*/
+div#postcomment_userphotos {width: 100px !important; background: none !important; border: none !important; border-radius: 0px !important; margin-left: 15px !important;  background-image: linear-gradient(to bottom, transparent 0%, #cf063c 100%) !important;}
+.userphoto_selected {background-color: #c8fefe !important; border-radius: 0px !important; border: none !important;}
+.img-thumbnail {border-radius: 0px !important;}
+
+/*Моб. Выбор аватарки*/
+div#postcomment_userphotos { background: none; border: none; border-radius: 0px !important; background-image: linear-gradient(to bottom, transparent 0%, #cf063c 100%);}
+.userphoto_selected {background-color: #c8fefe; border-radius: 0px; border: none;}
+.img-thumbnail {border-radius: 0px;}
+
+/*Окно оповещений*/
+.modal-content { background: rgba(25, 1, 33) !important; border-radius: 0px 40px 0px 0px !important; box-shadow: 2px 0px 6px #cf063c !important;}
+.modal-title {position: center !important;}
+.btn.btn-secondary {background: #cf063c !important; text-align: center !important; border-radius: 0px !important; border: none !important; color: rgba(25, 1, 33) !important; font-weight: bold !important;}
+.btn.btn-secondary:hover {background: #cf063c !important; text-align: center !important; border-radius: 0px !important; border: none !important; color: #c8fefe !important; font-weight: bold !important;}
+
+/*Моб. Окно оповещений*/
+.modal-content { background: rgba(25, 1, 33); border-radius: 0px 40px 0px 0px; box-shadow: 2px 0px 6px #cf063c;}
+.modal-title {position: center !important;}
+.btn.btn-secondary {background: #cf063c; text-align: center; border-radius: 0px; border: none; color: rgba(25, 1, 33); font-weight: bold;}
+.btn.btn-secondary:hover {background: #cf063c; text-align: center; border-radius: 0px; border: none; color: #c8fefe; font-weight: bold;}
+
+/*Окно удалить комментарий*/
+div#TB_window {background: rgba(25, 1, 33) !important; border-radius: 0px 40px 0px 0px !important; box-shadow: 2px 0px 6px #cf063c !important;}
+input.button { background: #cf063c !important; text-align: center !important; border-radius: 0px !important; border: none !important; color: rgba(25, 1, 33) !important; font-weight: bold !important;}
+input.button:hover { background: #cf063c !important; text-align: center !important; border-radius: 0px !important; border: none !important; color: #c8fefe !important; font-weight: bold !important;}
+
+/*Моб. Окно удалить комментарий*/
+div#TB_window {background: rgba(25, 1, 33); border-radius: 0px 40px 0px 0px; box-shadow: 2px 0px 6px #cf063c;}
+input.button { background: #cf063c; text-align: center; border-radius: 0px; border: none; color: rgba(25, 1, 33); font-weight: bold;}
+input.button:hover { background: #cf063c; text-align: center; border-radius: 0px; border: none; color: #c8fefe; font-weight: bold;}
+
+/*профиль,друзья и тд */
+td.profile_tab2 a {
+background: transparent !important;
+text-align: center !important;
+border-radius: 0px !important;}
+
+/*профиль,друзья и тд при наведении */
+td.profile_tab2 a:hover {
+background: transparent !important;
+text-align: center !important;
+border-radius: 0px !important;}
+
+.profile_content {
+border: none !important;
+}
+
+/*Моб. ТУТ*/
+/*профиль,друзья и тд */
+.profile_tab a,
+.profile_tab {
+text-align: center;
+background: none; 
+}
+
+
+/*профиль,друзья и тд при нажатии*/
+.profile_tab2 a {background: none; text-align: center; border-radius: 0px; color: #c8fefe; text-shadow: 0 0 6px; font-weight: bold;}
+
+/*Мобильная версия*/
+
+#mobile_photo_wrap{background: rgba(25, 1, 33);}
+#mobile_menu .menu_item_dropdown a {background: rgba(25, 1, 33);}
+#mobile_menu .menu_item_dropdown a:hover {background: rgba(25, 1, 33);}
+.portal_spacer {background: rgba(25, 1, 33);}
+
+/*логомоб*/
+nav .p-1 {
+background: url(https://beon.vip/uploads_user/10000/9848/d16202ec21e873bf58bc098f17802f49.png) no-repeat;
+-webkit-background-size:100px,50px; position:relative; right: 10px; top: 4px;}
+nav.top_menu .p-1 a {
+opacity: 0;}
+.top_menu img {
+opacity: 0;}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu{background: rgba(25, 1, 33, 0.8); box-shadow: 0px 2px 1px #cf063c; border: none;}
+
+/*Кнопка вниз*/
+.btn.btn-outline-success {border: none; text-align: center; color: #c8fefe; text-shadow: 0 0 6px; font-weight: bold; box-shadow: none;}
+div#profile_profile {border: none;}  
+
+#mobile_menu {background: #030d23;}
+
+/*Меню в шапке*/
+.navbar-light .navbar-toggler {border-color:transparent;}
+.navbar-light .navbar-toggler-icon {background-image: url(https://beon.vip/uploads_user/10000/9848/3aedf9d5571b22a8e6fe492bb4acc502.png);
+background-size:contain;}
+.navbar-light .navbar-toggler:focus {outline:none;}
+
+img.photo {border: none; box-shadow: 0px 0px 3px #cf063c;}
+
+/*Написать в дневник*/
+button.btn.btn-primary {background: #cf063c; border: none; color: #c8fefe; font-weght: bold;}
+
+img.gift-photo {transform: scale(0.6) !important; transform: scale(0.6);}
+
+.browse_friends_result {background: none !important; background: none;}
+
+/*Фото профиля*/
+.profile_photo img {content: url(https://beon.vip/uploads_user/10000/9215/d024daf821dc1de872d3dda99cd7f968.png) !important; border: none !important; width: 120px !important; box-shadow: 0px 0px 3px #cf063c !important;}
+
+/*Моб. Фото профиля*/
+.profile_photo img {content: url(https://beon.vip/uploads_user/10000/9215/d024daf821dc1de872d3dda99cd7f968.png); border: none; width: 120px; box-shadow: 0px 0px 3px #cf063c;}
+
+[href="https://beon.vip/johnny/"]{ color: #c8fefe; text-shadow: 0 0 6px; font-weight: bold; color: #c8fefe !important; text-shadow: 0 0 6px !important; font-weight: bold !important;}
+
+button.close {display: none !important; display: none;}
+
+.button_down {
+outline: none !important; 
+}
+
+.button_down {
+outline: none;
+}
+
+.btn.btn-success {
+background: transparent !important;
+background: none !important; 
+border: none !important; 
+text-align: center !important; 
+margin-left: 10px !important; 
+margin-bottom: 10px !important; 
+border-radius: 0px !important; 
+font-weight: bold !important;  
+font-size: 14px !important; 
+color: #ed4e64 !important;
+}
+
+.btn.btn-success:hover {
+background: none !important; 
+border: none !important; 
+text-align: center !important; 
+margin-left: 10px !important; 
+color: #c8fefe !important; 
+text-shadow: 0 0 6px !important; 
+margin-bottom: 10px !important; 
+border-radius: 0px !important; 
+font-weight: bold !important; 
+font-size: 14px !important;
+} 
+
+
+/*Отмена нового диза*/
+
+.profile_content {
+border: none !important;
+margin: none !important;
+}
