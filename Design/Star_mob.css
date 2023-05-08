@@ -1,6 +1,5 @@
 /*Моб.*/
 a, div, td, tr {
-font-family: 'Jura';
 color: #fff;
 }
 
@@ -16,10 +15,6 @@ color: #fff;
 text-decoration: none;
 text-shadow: 0 0 10px #fcfab5;
 transition: 2s;
-}
-
-a:link {
-color: #fff;
 }
 
 /*Моб.*/
@@ -262,14 +257,6 @@ text-shadow: 0 0 10px #fcfab5;
 #mobile_menu .menu_item_dropdown a:hover {background: rgba(40, 3, 80);}
 .portal_spacer {background: rgba(40, 3, 80);}
 
-/*логомоб*/
-nav .p-1 {
-background: url(https://i.ibb.co/sF5vHCY/image.png) no-repeat;
--webkit-background-size:50px; position:relative; right: 10px; top: 4px;}
-nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu{
-background: rgba(40, 3, 80, 0.6);
-box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
-}
 
 nav.top_menu .p-1 a {
 opacity: 0;}
@@ -284,12 +271,6 @@ div#profile_profile {border: none;}
 button.btn.btn-primary {background: #c096eb; border: none; color: #fff; font-weght: bold;  text-shadow: 0 0 6px #fcfab5;}
 
 #mobile_menu {background: #030d23;}
-
-/*Меню в шапке*/
-.navbar-light .navbar-toggler {border-color:transparent;}
-.navbar-light .navbar-toggler-icon {background-image: url(https://beon.vip/uploads_user/10000/9848/fa2b9b23d5e9102c03a1951f0357e99d.png);
-background-size:contain;}
-.navbar-light .navbar-toggler:focus {outline:none;}
 
 button.close { display: none;}
 
@@ -355,3 +336,18 @@ background: transparent;
 button.button_down:hover {
 background: url(https://i.ibb.co/sbtqdCm/image.png) no-repeat
 }
+
+/*логомоб*/
+nav .p-1 {
+background: url(https://i.ibb.co/sF5vHCY/image.png) no-repeat;
+-webkit-background-size:40px; position:relative; top: 4px;}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu{
+background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+}
+
+/*Меню в шапке*/
+.navbar-light .navbar-toggler {border-color:transparent;}
+.navbar-light .navbar-toggler-icon {background-image: url(https://beon.vip/uploads_user/10000/9848/fa2b9b23d5e9102c03a1951f0357e99d.png);
+background-size:contain;}
+.navbar-light .navbar-toggler:focus {outline:none;}
