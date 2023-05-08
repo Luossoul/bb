@@ -1,0 +1,658 @@
+ @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+div, td, tr {
+font-family: 'Jura' !important;
+color: #fff !important;
+}
+
+/*Моб.*/
+a, div, td, tr {
+font-family: 'Jura';
+color: #fff;
+}
+
+a {
+text-decoration: none !important;
+text-shadow: 0 0 4px #280350 !important;
+font-family: 'Jura' !important;
+color: #fff !important;
+}
+
+a:hover {
+text-decoration: none !important;
+text-shadow: 0 0 10px #fcfab5 !important;
+transition: 2s;
+font-family: 'Jura' !important;
+color: #fff !important;
+}
+
+/*Моб.*/
+a {
+text-decoration: none;
+text-shadow: 0 0 4px #280350;
+}
+
+a:hover {
+text-decoration: none;
+text-shadow: 0 0 10px #fcfab5;
+transition: 2s;
+}
+
+/*Шапка*/
+/*лого*/
+.top_header [src$="./images/logo_new.png"] {content: url(https://i.ibb.co/sF5vHCY/image.png) !important; margin-bottom: 10px !important; margin-left: 120px !important;}
+.top_header {position: static !important; margin-bottom: -50px !important; margin-left: auto !important; margin-right: auto !important; width: 100% !important;
+background: rgba(40, 3, 80, 0.6) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important; 
+}
+
+.button_down {
+background: transparent !important;
+}
+
+.btn.btn-primary {
+background: transparent !important;
+border: none !important;
+}
+
+/*колокольчик и стрелочка*/
+/*оповещение*/
+button#newupdates.button_down {background: url(https://i.ibb.co/805DV8n/image.png) left no-repeat !important;
+box-shadow: none !important; padding-right: 45px !important;}
+/*оповещение*/
+button#newupdates.button_down {background: url(https://i.ibb.co/805DV8n/image.png) left no-repeat; box-shadow: none; box-shadow: none !important; padding-right: 45px !important;}
+
+/*стрелочка*/
+.button_down {background: url(https://i.ibb.co/sbtqdCm/image.png) no-repeat !important;
+background-position: right !important; box-shadow: none !important; margin-left: 13px !important; width: 30px !important; height: 30px !important;}
+.button_down [src="/images/button_down.svg"] {display: none !important;}
+.button_down [src="/images/notify.svg"] {display: none !important;}
+
+/*оповещение красненькое*/
+.badge {margin-left: 28px !important;
+font-size: 12px !important;
+}
+
+a.top_menu_item:link {
+font-size: 18px;
+text-transform: lowercase !important;
+color: #fff !important;
+border: none !important;
+}
+
+div.menu_dropdown {
+background: rgba(40, 3, 80) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important;
+border: unset !important;
+opacity: 0;
+}
+
+div.menu_dropdown:hover {
+opacity: 1;
+}
+
+div.menu_item_dropdown {
+background: transparent !important;
+border: none !important;
+}
+
+a.menu_item {
+background: transparent !important;
+border: none !important;
+}
+
+a.menu_item:hover {
+background: transparent !important;
+border: none !important;
+}
+
+
+img.menu_icon2 {
+display: none;
+}
+
+body {
+background: url(https://i.ibb.co/SBVmg2d/image.jpg) center no-repeat !important;
+background-attachment: fixed !important;
+background-size: 100% !important;
+}
+
+/*Моб.*/
+body {
+background: url(https://i.ibb.co/XkC3Sfj/image.jpg) center top no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+}
+
+.card.blog_gifts {
+display: none !important;
+}
+
+.blog_leftsearch {
+display: none !important;
+}
+
+.card {
+border: none !important;
+border: none;
+}
+
+.card-body {
+list-style-type: none !important;
+list-style-type: none;
+padding: 20px !important;
+} 
+
+a.card-body {
+background: transparent !important;
+}
+
+.card-header {
+text-align: center !important;
+text-align: center;
+font-size: 20px;
+border-bottom: none !important;
+}
+
+.blog_leftphoto {
+margin-bottom: 10px !important;
+}
+
+img.photo {
+border: none !important;
+border-radius: 10px !important;
+box-shadow: 0 0 4px #280350 !important;
+margin- bottom: 8px !important;
+}
+
+/*Моб*/
+.blog_leftphoto {
+margin-bottom: 10px;
+}
+/*Моб*/
+img.photo {
+border: none;
+border-radius: 10px;
+box-shadow: 0 0 4px #280350;
+margin- bottom: 8px;
+}
+
+.card.p-1 {
+padding-bottom: 10px !important;
+border-radius: 0px !important;
+}
+
+/*Моб*/
+.card.p-1 {
+padding-bottom: 10px;
+border-radius: 0px;
+}
+
+.seBlogColumnLeft {
+margin-left: 20px !important;
+background: rgba(40, 3, 80, 0.6) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important;
+border-radius: 30px !important;
+padding: 20px !important;
+}
+
+/*Моб*/
+.seBlogColumnLeft {
+background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px;
+padding: 20px;
+}
+
+.card-subtitle.mb-2.text-muted.post_date {
+font-weight: bold !important;
+color: #fff !important;
+margin-top: 5px !important;
+margin-bottom: 20px !important;
+padding: 10px !important;
+border-bottom: 1px solid #fff !important;
+text-align: center !important;
+}
+
+/*Моб*/
+.card-subtitle.mb-2.text-muted.post_date {
+font-weight: bold;
+color: #fff;
+margin-top: 5px;
+margin-bottom: 20px;
+padding: 10px;
+border-bottom: 1px solid #fff;
+text-align: center;
+}
+
+.card-title {
+text-align: center !important;
+font-size: 26px !important;
+margin-bottom: 0px !important;
+}
+
+/*Моб*/
+.card-title {
+text-align: center;
+font-size: 24px;
+margin-bottom: 0px;
+}
+
+.card.mb-2.post_home {
+margin-bottom: 50px !important;
+}
+
+/*Моб*/
+.card.mb-2.post_home {
+margin-bottom: 50px;
+}
+
+.post_image a img {
+margin-bottom: 8px !important;
+border-radius: 10px !important;
+box-shadow: 0 0 4px #280350 !important;
+}
+
+/*Моб*/
+.post_image a img {
+margin-bottom: 8px;
+border-radius: 10px;
+box-shadow: 0 0 4px #280350;
+}
+
+.category {
+text-shadow: none !important;
+margin-bottom: 10px !important;
+font-size: 15px !important;
+}
+
+.category a {
+text-shadow: none !important;
+font-size: 15px !important;
+}
+
+.category a:hover {
+text-shadow: 0 0 10px #fcfab5 !important;
+font-size: 15px !important;
+}
+
+/*Моб*/
+.category {
+text-shadow: none;
+margin-bottom: 10px;
+font-size: 15px;
+}
+
+.category a {
+text-shadow: none;
+font-size: 15px;
+}
+
+.category a:hover {
+text-shadow: 0 0 10px #fcfab5;
+font-size: 15px;
+}
+
+.seBlogColumnRight {
+background: rgba(40, 3, 80, 0.6) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important;
+border-radius: 30px !important;
+width: 300px !important;
+height: 80% !important; 
+}
+
+/*Моб*/
+.seBlogColumnRight {
+background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px;
+border: none;
+margin-bottom: 10px;
+}
+
+.post_text.pl-3 {
+margin-bottom: 10px !important;
+}
+
+/*Моб*/
+.post_text.pl-3 {
+margin-bottom: 10px;
+font-size: 15px;
+}
+
+.modal-content {
+background: rgba(40, 3, 80) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important;
+border-radius: 30px !important;
+}
+/*Моб*/
+.modal-content {
+background: rgba(40, 3, 80);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px;
+}
+
+.modal-header {
+border: none !important; border: none;
+}
+
+.modal-footer {
+border: none !important; border: none;
+}
+
+button.close {
+display: none !important; display: none;
+}
+
+button.btn.btn-secondary {
+background: transparent !important;
+text-shadow: 0 0 4px #280350 !important;
+border: none !important;
+color: #fff !important;
+}
+
+button.btn.btn-secondary:hover {
+background: transparent !important;
+color: #fff !important;
+text-shadow: 0 0 10px #fcfab5 !important;
+transition: 2s;
+}
+
+/*Моб*/
+button.btn.btn-secondary {
+background: transparent;
+text-shadow: 0 0 4px #280350;
+border: none;
+color: #fff;
+}
+
+button.btn.btn-secondary:hover {
+background: transparent;
+color: #fff;
+text-shadow: 0 0 10px #fcfab5;
+transition: 2s;
+}
+
+.button_down {
+outline: none !important;
+outline: none;
+}
+
+.comment_headline {
+background: none !important;
+border: none !important;
+margin-top: 20px !important;
+}
+
+/*Моб*/
+.comment_headline {
+background: none;
+border: none;
+margin-top: 20px;
+}
+
+.profile_postcomment {
+background: transparent !important;
+border: none !important;
+background: transparent;
+border: none;
+}
+
+#postcomment_userphotos {
+width: 100px !important;
+background: transparent !important;
+border: none !important;
+}
+
+/*Моб*/
+#postcomment_userphotos {
+background: transparent;
+border: none;
+}
+
+.userphoto_selected {
+background: #af7ce5 !important;
+background: #af7ce5;
+}
+
+input#comment_submit.button {
+background: transparent !important;
+text-shadow: 0 0 4px #280350 !important;
+border: none !important;
+color: #fff !important;
+padding-left: 8px !important;
+padding-right: 8px !important;
+}
+
+input#comment_submit.button:hover {
+background: transparent !important;
+color: #fff !important;
+text-shadow: 0 0 10px #fcfab5 !important;
+transition: 2s;
+padding-left: 8px !important;
+padding-right: 8px !important;
+}
+
+/*Моб*/
+input#comment_submit.button {
+background: transparent;
+text-shadow: 0 0 4px #280350;
+border: none;
+color: #fff;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+input#comment_submit.button:hover {
+background: transparent;
+color: #fff;
+text-shadow: 0 0 10px #fcfab5;
+transition: 2s;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+div#TB_window {
+background: rgba(40, 3, 80) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important;
+border-radius: 10px !important;
+}
+
+/*Моб*/
+div#TB_window {
+background: rgba(40, 3, 80);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 10px;
+}
+
+div#TB_title {
+border: none !important;
+border: none;
+}
+
+input.button {
+background: transparent !important;
+text-shadow: 0 0 4px #280350 !important;
+border: none !important;
+color: #fff !important;
+padding-left: 8px !important;
+padding-right: 8px !important;
+}
+
+input.button:hover {
+background: transparent !important;
+color: #fff !important;
+text-shadow: 0 0 10px #fcfab5 !important;
+transition: 2s;
+padding-left: 8px !important;
+padding-right: 8px !important;
+}
+
+/*Моб*/
+input.button {
+background: transparent;
+text-shadow: 0 0 4px #280350;
+border: none;
+color: #fff;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+input.button:hover {
+background: transparent;
+color: #fff;
+text-shadow: 0 0 10px #fcfab5;
+transition: 2s;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #af7ce5 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e286f !important;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  background-color: #af7ce5;
+}
+
+div#designs {
+position: absolute !important;
+}
+
+div.copyright {
+width: 80% !important;
+margin-top: 0px !important;
+}
+
+div.button a {
+font-size: 14px;
+}
+
+.show_menu.header-orange {
+background: transparent;
+text-align: center;
+text-shadow: 0 0 10px #fcfab5;
+}
+
+/*Мобильная версия*/
+
+#mobile_photo_wrap{background: rgba(40, 3, 80);}
+#mobile_menu .menu_item_dropdown a {background: rgba(40, 3, 80);}
+#mobile_menu .menu_item_dropdown a:hover {background: rgba(40, 3, 80);}
+.portal_spacer {background: rgba(40, 3, 80);}
+
+/*логомоб*/
+nav .p-1 {
+background: url(https://i.ibb.co/sF5vHCY/image.png) no-repeat;
+-webkit-background-size:50px; position:relative; right: 10px; top: 4px;}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu{
+background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+}
+
+nav.top_menu .p-1 a {
+opacity: 0;}
+.top_menu img {
+opacity: 0;}
+
+/*Кнопка вниз*/
+.btn.btn-outline-success {border: none; text-align: center; color: #fff; text-shadow: 0 0 6px #fcfab5; font-weight: bold; box-shadow: none;}
+div#profile_profile {border: none;}  
+
+/*Написать в дневник*/
+button.btn.btn-primary {background: #c096eb; border: none; color: #fff; font-weght: bold;  text-shadow: 0 0 6px #fcfab5;}
+
+#mobile_menu {background: #030d23;}
+
+/*Меню в шапке*/
+.navbar-light .navbar-toggler {border-color:transparent;}
+.navbar-light .navbar-toggler-icon {background-image: url(https://beon.vip/uploads_user/10000/9848/fa2b9b23d5e9102c03a1951f0357e99d.png);
+background-size:contain;}
+.navbar-light .navbar-toggler:focus {outline:none;}
+
+div#user_status {
+font-size: 10px;
+}
+
+button.close {display: none !important; display: none;}
+
+div#user_status {
+width: 100%;
+}
+
+a.page-link {color: #fff !important; background: rgba(40, 3, 80, 0.6) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important;
+border-radius: 30px !important; font-weight: bold !important;
+text-shadow: 0 0 10px #fcfab5 !important;
+}
+a.page-link {color: #fff !important; background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px !important; font-weight: bold;
+text-shadow: 0 0 10px #fcfab5;
+ }
+
+div#designs {
+    background: url(https://beon.vip/uploads_user/10000/9848/9623edc5229d3228864c17d65a27c530.png) left no-repeat !important;
+border: none !important;
+width: 50px !important;
+height: 41px !important;    
+}
+
+div#designs {
+    background: url(https://beon.vip/uploads_user/10000/9848/9623edc5229d3228864c17d65a27c530.png) left no-repeat;
+width: 50px;
+border: none;
+height: 41px;
+}
+
+div#user_status,.blog_user_status {
+color: #fff !important;
+font-size: 12px !important;
+}
+
+div#comment_subscribe {
+display: none !important;
+}
+
+div#bbcode {
+background: #fff !important;
+width: auto !important;
+}
+
+.post_data a, p.card-link.post_views, .post_data, .profile_comment_links {
+color: #fff !important;
+}
+
+.post_data a, p.card-link.post_views, .post_data, .profile_comment_links {
+color: #fff;
+}
+
+.like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before {
+color: #fff !important; 
+}
+
+.card-link.post_views {
+color: #fff !important;
+}
+
+a.card-link {
+color: #fff !important;
+}
+
+.card-link.post_likes {
+color: #fff !important;
+}
+
+.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:hover, a.nav-item.nav-link.active:hover, .card [onclick="$('#profile_viewers').toggle();"]:hover, a.page-link:hover, button.btn.btn-primary:hover, div#ajax_status a:hover, button.btn.btn-outline-success:hover, button.navbar-toggler:hover {
+background: transparent !important;
+}
+
+button.button_down:hover {
+background: url(https://i.ibb.co/sbtqdCm/image.png) no-repeat !important;
+}
