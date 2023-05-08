@@ -76,6 +76,10 @@ border-radius: 30px;
 padding: 20px;
 }
 
+.seBlogColumnLeft a{
+color: #fff;
+}
+
 /*Моб*/
 .card-subtitle.mb-2.text-muted.post_date {
 font-weight: bold;
