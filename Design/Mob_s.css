@@ -6,14 +6,12 @@ color: #fff;
 /*Моб.*/
 a {
 text-decoration: none;
-text-shadow: 0 0 4px #280350;
 color: #fff;
 }
 
 a:hover {
 color: #fff;
 text-decoration: none;
-text-shadow: 0 0 10px #fcfab5;
 transition: 2s;
 }
 
