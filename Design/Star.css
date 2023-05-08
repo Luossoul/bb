@@ -22,7 +22,7 @@ color: #fff !important;
 
 /*Шапка*/
 /*лого*/
-.top_header [src$="./images/logo_new.png"] {content: url(https://i.ibb.co/sF5vHCY/image.png) !important; margin-bottom: 10px !important; margin-left: 120px !important;}
+.top_header [src$="./images/logo_new.png"] {content: url(https://beon.vip/uploads_user/10000/9848/d920df5e07c4778671a03964a100519f.png) !important; margin-bottom: 10px !important; margin-left: 120px !important;}
 .top_header {position: static !important; margin-bottom: -50px !important; margin-left: auto !important; margin-right: auto !important; width: 100% !important;
 background: rgba(40, 3, 80, 0.6) !important;
 box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important; 
