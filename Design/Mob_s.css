@@ -15,6 +15,20 @@ text-decoration: none;
 transition: 2s;
 }
 
+a.menu_item:link {
+color: #fff;
+text-decoration: none;
+transition: 2s;
+text-shadow: none;
+}
+
+a.menu_item:link:hover {
+color: #fff;
+text-decoration: none;
+transition: 2s;
+text-shadow: none;
+}
+
 /*Моб.*/
 body {
 background: url(https://i.ibb.co/XkC3Sfj/image.jpg) center top no-repeat;
