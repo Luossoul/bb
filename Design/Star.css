@@ -416,3 +416,8 @@ button.close { display: none;}
 div#user_status {
 width: 100%;
 }
+
+@media (max-width: 700px){
+.seBlogColumnLeft {
+ width: 100%;
+ }
