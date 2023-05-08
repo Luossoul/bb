@@ -15,17 +15,15 @@ text-decoration: none;
 transition: 2s;
 }
 
-a.menu_item:link {
+a.menu_item {
 color: #fff;
 text-decoration: none;
-transition: 2s;
 text-shadow: none;
 }
 
-a.menu_item:link:hover {
+a.menu_item:hover {
 color: #fff;
 text-decoration: none;
-transition: 2s;
 text-shadow: none;
 }
 
