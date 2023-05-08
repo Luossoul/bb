@@ -1,0 +1,748 @@
+ @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+div, td, tr {
+font-family: 'Jura';
+color: #fff;
+}
+
+a {
+text-decoration: none;
+text-shadow: 0 0 4px #280350;
+font-family: 'Jura';
+color: #fff;
+}
+
+a:hover {
+text-decoration: none;
+text-shadow: 0 0 10px #fcfab5;
+transition: 2s;
+font-family: 'Jura';
+color: #fff;
+}
+
+/*Шапка*/
+/*лого*/
+.top_header [src$="./images/logo_new.png"] {content: url(https://i.ibb.co/sF5vHCY/image.png); margin-bottom: 10px; margin-left: 120px;}
+.top_header {position: static; margin-bottom: -50px; margin-left: auto; margin-right: auto; width: 100%;
+background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4); 
+}
+
+.button_down {
+background: transparent;
+}
+
+.btn.btn-primary {
+background: transparent;
+border: none;
+}
+
+/*колокольчик и стрелочка*/
+/*оповещение*/
+button#newupdates.button_down {background: url(https://i.ibb.co/805DV8n/image.png) left no-repeat;
+box-shadow: none; padding-right: 45px;}
+
+/*стрелочка*/
+.button_down {background: url(https://i.ibb.co/sbtqdCm/image.png) no-repeat;
+background-position: right; box-shadow: none; margin-left: 13px; width: 30px; height: 30px;}
+.button_down [src="/images/button_down.svg"] {display: none;}
+.button_down [src="/images/notify.svg"] {display: none;}
+
+/*оповещение красненькое*/
+.badge {margin-left: 28px;
+font-size: 12px;
+}
+
+a.top_menu_item:link {
+font-size: 18px;
+text-transform: lowercase;
+color: #fff;
+border: none;
+}
+
+div.menu_dropdown {
+background: rgba(40, 3, 80);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border: unset;
+opacity: 0;
+}
+
+div.menu_dropdown:hover {
+opacity: 1;
+}
+
+div.menu_item_dropdown {
+background: transparent;
+border: none;
+}
+
+a.menu_item {
+background: transparent;
+border: none;
+}
+
+a.menu_item:hover {
+background: transparent;
+border: none;
+}
+
+body {
+background: url(https://i.ibb.co/SBVmg2d/image.jpg) center no-repeat;
+background-attachment: fixed;
+}
+
+.card.blog_gifts {
+display: none;
+}
+
+.blog_leftsearch {
+display: none;
+}
+
+.card {
+border: none;
+}
+
+.card-body {
+list-style-type: none;
+padding: 20px;
+} 
+
+a.card-body {
+background: transparent;
+}
+
+.card-header {
+text-align: center;
+border-bottom: none;
+}
+
+.blog_leftphoto {
+margin-bottom: 10px;
+}
+
+img.photo {
+border: none;
+border-radius: 10px;
+box-shadow: 0 0 4px #280350;
+margin- bottom: 8px;
+}
+
+.card.p-1 {
+padding-bottom: 10px;
+border-radius: 0px;
+}
+
+.seBlogColumnLeft {
+margin-left: 20px;
+background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px;
+padding: 20px;
+}
+
+.card-subtitle.mb-2.text-muted.post_date {
+font-weight: bold;
+color: #fff;
+margin-top: 5px;
+margin-bottom: 20px;
+padding: 10px;
+border-bottom: 1px solid #fff;
+text-align: center;
+}
+
+.card-title {
+text-align: center;
+font-size: 26px;
+margin-bottom: 0px;
+}
+
+.card.mb-2.post_home {
+margin-bottom: 50px;
+}
+
+.post_image a img {
+margin-bottom: 8px;
+border-radius: 10px;
+box-shadow: 0 0 4px #280350;
+}
+
+.category {
+text-shadow: none;
+margin-bottom: 10px;
+font-size: 15px;
+}
+
+.category a {
+text-shadow: none;
+font-size: 15px;
+}
+
+.category a:hover {
+text-shadow: 0 0 10px #fcfab5;
+font-size: 15px;
+}
+
+.seBlogColumnRight {
+background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px;
+width: 300px;
+height: 80%; 
+}
+
+.post_text.pl-3 {
+margin-bottom: 10px;
+}
+
+.modal-content {
+background: rgba(40, 3, 80);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px;
+}
+
+.modal-header {
+border: none;
+}
+
+.modal-footer {
+border: none;
+}
+
+button.close {
+display: none;
+}
+
+button.btn.btn-secondary {
+background: transparent;
+text-shadow: 0 0 4px #280350;
+border: none;
+color: #fff;
+}
+
+button.btn.btn-secondary:hover {
+background: transparent;
+color: #fff;
+text-shadow: 0 0 10px #fcfab5;
+transition: 2s;
+}
+
+.button_down {
+outline: none;
+}
+
+.comment_headline {
+background: none;
+border: none;
+margin-top: 20px;
+}
+
+.profile_postcomment {
+background: transparent;
+border: none;
+}
+
+#postcomment_userphotos {
+width: 100px;
+background: transparent;
+border: none;
+}
+
+.userphoto_selected {
+background: #af7ce5;
+}
+
+input#comment_submit.button {
+background: transparent;
+text-shadow: 0 0 4px #280350;
+border: none;
+color: #fff;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+input#comment_submit.button:hover {
+background: transparent;
+color: #fff;
+text-shadow: 0 0 10px #fcfab5;
+transition: 2s;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+div#TB_window {
+background: rgba(40, 3, 80);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 10px;
+}
+
+div#TB_title {
+border: none;
+}
+
+input.button {
+background: transparent;
+text-shadow: 0 0 4px #280350;
+border: none;
+color: #fff;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+input.button:hover {
+background: transparent;
+color: #fff;
+text-shadow: 0 0 10px #fcfab5;
+transition: 2s;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #af7ce5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e286f;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  background-color: #af7ce5;
+}
+
+div#designs {
+position: absolute;
+}
+
+div.copyright {
+width: 80%;
+margin-top: 0px;
+}
+
+a.page-link {color: #fff; background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px; font-weight: bold;
+text-shadow: 0 0 10px #fcfab5;
+}
+
+div#designs {
+    background: url(https://beon.vip/uploads_user/10000/9848/9623edc5229d3228864c17d65a27c530.png) left no-repeat;
+border: none;
+width: 50px;
+height: 41px;    
+}
+
+div#user_status,.blog_user_status {
+color: #fff;
+font-size: 12px;
+}
+
+div#comment_subscribe {
+display: none;
+}
+
+div#bbcode {
+background: #fff;
+width: auto;
+}
+
+.post_data a, p.card-link.post_views, .post_data, .profile_comment_links {
+color: #fff;
+}
+
+.like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before {
+color: #fff; 
+}
+
+.card-link.post_views {
+color: #fff;
+}
+
+a.card-link {
+color: #fff;
+}
+
+.card-link.post_likes {
+color: #fff;
+}
+
+.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:hover, a.nav-item.nav-link.active:hover, .card [onclick="$('#profile_viewers').toggle();"]:hover, a.page-link:hover, button.btn.btn-primary:hover, div#ajax_status a:hover, button.btn.btn-outline-success:hover, button.navbar-toggler:hover {
+background: transparent;
+}
+
+button.button_down:hover {
+background: url(https://i.ibb.co/sbtqdCm/image.png) no-repeat;
+}
+
+/*MMM*/
+/*Моб.*/
+a, div, td, tr {
+color: #fff;
+}
+
+/*Моб.*/
+a {
+text-decoration: none;
+color: #fff;
+}
+
+a:hover {
+color: #fff;
+text-decoration: none;
+transition: 2s;
+}
+
+a.menu_item {
+color: #fff;
+text-decoration: none;
+text-shadow: none;
+}
+
+a.menu_item:hover {
+color: #fff;
+text-decoration: none;
+text-shadow: none;
+}
+
+/*Моб.*/
+body {
+background: url(https://i.ibb.co/XkC3Sfj/image.jpg) center top no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+}
+
+.card {
+border: none;
+}
+
+.card-body {
+list-style-type: none;
+border: none;
+} 
+
+.card-header {
+text-align: center;
+border-bottom: none;
+}
+
+/*Моб*/
+.blog_leftphoto {
+margin-bottom: 10px;
+}
+/*Моб*/
+img.photo {
+border: none;
+border-radius: 10px;
+box-shadow: 0 0 4px #280350;
+margin- bottom: 8px;
+}
+
+/*Моб*/
+.card.p-1 {
+padding-bottom: 10px;
+border-radius: 0px;
+}
+
+/*Моб*/
+.seBlogColumnLeft {
+background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px;
+padding: 20px;
+}
+
+.seBlogColumnLeft a{
+color: #fff;
+}
+
+/*Моб*/
+.card-subtitle.mb-2.text-muted.post_date {
+font-weight: bold;
+color: #fff;
+margin-top: 5px;
+margin-bottom: 20px;
+padding: 10px;
+border-bottom: 1px solid #fff;
+text-align: center;
+}
+
+/*Моб*/
+.card-title {
+text-align: center;
+margin-bottom: 0px;
+}
+
+/*Моб*/
+.card.mb-2.post_home {
+margin-bottom: 50px;
+}
+
+/*Моб*/
+.post_image a img {
+margin-bottom: 8px;
+border-radius: 10px;
+box-shadow: 0 0 4px #280350;
+}
+
+/*Моб*/
+.category {
+text-shadow: none;
+margin-bottom: 10px;
+}
+
+.category a {
+text-shadow: none;
+}
+
+.category a:hover {
+text-shadow: 0 0 10px #fcfab5;
+}
+
+/*Моб*/
+.seBlogColumnRight {
+background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px;
+border: none;
+margin-bottom: 10px;
+color: #fff;
+}
+
+/*Моб*/
+.post_text.pl-3 {
+margin-bottom: 10px;
+color: #fff;
+} 
+
+/*Моб*/
+.modal-content {
+background: rgba(40, 3, 80);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px;
+}
+
+.modal-header {
+ border: none;
+}
+
+.modal-footer {
+border: none;
+}
+
+button.close {
+display: none;
+}
+
+/*Моб*/
+button.btn.btn-secondary {
+background: transparent;
+text-shadow: 0 0 4px #280350;
+border: none;
+color: #fff;
+}
+
+button.btn.btn-secondary:hover {
+background: transparent;
+color: #fff;
+text-shadow: 0 0 10px #fcfab5;
+transition: 2s;
+}
+
+.button_down {
+outline: none;
+}
+
+/*Моб*/
+.comment_headline {
+background: none;
+border: none;
+margin-top: 20px;
+}
+
+.profile_postcomment {
+background: transparent;
+border: none;
+}
+
+/*Моб*/
+#postcomment_userphotos {
+background: transparent;
+border: none;
+}
+
+.userphoto_selected {
+background: #af7ce5;
+}
+
+/*Моб*/
+input#comment_submit.button {
+background: transparent;
+text-shadow: 0 0 4px #280350;
+border: none;
+color: #fff;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+input#comment_submit.button:hover {
+background: transparent;
+color: #fff;
+text-shadow: 0 0 10px #fcfab5;
+transition: 2s;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+/*Моб*/
+div#TB_window {
+background: rgba(40, 3, 80);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 10px;
+}
+
+div#TB_title {
+border: none;
+}
+
+/*Моб*/
+input.button {
+background: transparent;
+text-shadow: 0 0 4px #280350;
+border: none;
+color: #fff;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+input.button:hover {
+background: transparent;
+color: #fff;
+text-shadow: 0 0 10px #fcfab5;
+transition: 2s;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #af7ce5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e286f;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  background-color: #af7ce5;
+}
+
+.show_menu.header-orange {
+background: transparent;
+text-align: center;
+text-shadow: 0 0 10px #fcfab5;
+}
+
+/*Мобильная версия*/
+
+#mobile_photo_wrap{background: rgba(40, 3, 80);}
+#mobile_menu .menu_item_dropdown a {background: rgba(40, 3, 80);}
+#mobile_menu .menu_item_dropdown a:hover {background: rgba(40, 3, 80);}
+.portal_spacer {background: rgba(40, 3, 80);}
+
+
+nav.top_menu .p-1 a {
+opacity: 0;}
+.top_menu img {
+opacity: 0;}
+
+/*Кнопка вниз*/
+.btn.btn-outline-success {border: none; text-align: center; color: #fff; text-shadow: 0 0 6px #fcfab5; font-weight: bold; box-shadow: none;}
+div#profile_profile {border: none;}  
+
+/*Написать в дневник*/
+button.btn.btn-primary {background: #c096eb; border: none; color: #fff; font-weght: bold;  text-shadow: 0 0 6px #fcfab5;}
+
+#mobile_menu {background: #030d23;}
+
+button.close { display: none;}
+
+div#user_status {
+width: 100%;
+}
+
+a.page-link {color: #fff; background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px; font-weight: bold;
+text-shadow: 0 0 10px #fcfab5;
+}
+a.page-link {color: #fff; background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px; font-weight: bold;
+text-shadow: 0 0 10px #fcfab5;
+ }
+
+div#designs {
+background: url(https://beon.vip/uploads_user/10000/9848/9623edc5229d3228864c17d65a27c530.png) left no-repeat;
+border: none;
+width: 50px;
+height: 41px;    
+}
+
+div#user_status,.blog_user_status {
+color: #fff;
+}
+
+div#comment_subscribe {
+display: none;
+}
+
+div#bbcode {
+background: #fff;
+width: auto;
+}
+
+.post_data a, p.card-link.post_views, .post_data, .profile_comment_links {
+color: #fff;
+}
+
+.like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before {
+color: #fff; 
+}
+
+.card-link.post_views {
+color: #fff;
+}
+
+a.card-link {
+color: #fff;
+}
+
+.card-link.post_likes {
+color: #fff;
+}
+
+.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:hover, a.nav-item.nav-link.active:hover, .card [onclick="$('#profile_viewers').toggle();"]:hover, a.page-link:hover, button.btn.btn-primary:hover, div#ajax_status a:hover, button.btn.btn-outline-success:hover, button.navbar-toggler:hover {
+background: transparent;
+}
+
+button.button_down:hover {
+background: url(https://i.ibb.co/sbtqdCm/image.png) no-repeat
+}
+
+/*логомоб*/
+nav .p-1 {
+background: url(https://i.ibb.co/sF5vHCY/image.png) no-repeat;
+-webkit-background-size:40px; position:relative; top: 4px;}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu{
+background: rgba(40, 3, 80, 0.6);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+}
+
+/*Меню в шапке*/
+.navbar-light .navbar-toggler {border-color:transparent;}
+.navbar-light .navbar-toggler-icon {background-image: url(https://beon.vip/uploads_user/10000/9848/fa2b9b23d5e9102c03a1951f0357e99d.png);
+background-size:contain;}
+.navbar-light .navbar-toggler:focus {outline:none;}
