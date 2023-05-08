@@ -367,3 +367,384 @@ box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
 .navbar-light .navbar-toggler-icon {background-image: url(https://beon.vip/uploads_user/10000/9848/fa2b9b23d5e9102c03a1951f0357e99d.png);
 background-size:contain;}
 .navbar-light .navbar-toggler:focus {outline:none;}
+
+/*DEC*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap') !important;
+
+div, td, tr {
+font-family: 'Jura' !important;
+color: #fff !important;
+}
+
+a {
+text-decoration: none !important;
+text-shadow: 0 0 4px #280350 !important;
+font-family: 'Jura' !important;
+color: #fff !important;
+}
+
+a:hover {
+text-decoration: none !important;
+text-shadow: 0 0 10px #fcfab5 !important;
+transition: 2s;
+font-family: 'Jura' !important;
+color: #fff !important;
+}
+
+/*Шапка*/
+/*лого*/
+.top_header [src$="./images/logo_new.png"] {content: url(https://i.ibb.co/sF5vHCY/image.png) !important; margin-bottom: 10px !important; margin-left: 120px !important;}
+.top_header {position: static !important; margin-bottom: -50px !important; margin-left: auto !important; margin-right: auto !important; width: 100% !important;
+background: rgba(40, 3, 80, 0.6) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important; 
+}
+
+.button_down {
+background: transparent !important;
+}
+
+.btn.btn-primary {
+background: transparent !important;
+border: none !important;
+}
+
+/*колокольчик и стрелочка*/
+/*оповещение*/
+button#newupdates.button_down {background: url(https://i.ibb.co/805DV8n/image.png) left no-repeat !important;
+box-shadow: none !important; padding-right: 45px !important;}
+
+/*стрелочка*/
+.button_down {background: url(https://i.ibb.co/sbtqdCm/image.png) no-repeat !important;
+background-position: right !important; box-shadow: none !important; margin-left: 13px !important; width: 30px !important; height: 30px !important;}
+.button_down [src="/images/button_down.svg"] {display: none !important;}
+.button_down [src="/images/notify.svg"] {display: none !important;}
+
+/*оповещение красненькое*/
+.badge {margin-left: 28px !important;
+font-size: 12px !important;
+}
+
+a.top_menu_item:link {
+font-size: 18px !important;
+text-transform: lowercase !important;
+color: #fff !important;
+border: none !important;
+}
+
+div.menu_dropdown {
+background: rgba(40, 3, 80) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important;
+border: unset !important;
+opacity: 0 !important;
+}
+
+div.menu_dropdown:hover {
+opacity: 1 !important;
+}
+
+div.menu_item_dropdown {
+background: transparent !important;
+border: none !important;
+}
+
+a.menu_item {
+background: transparent !important;
+border: none !important;
+}
+
+a.menu_item:hover {
+background: transparent !important;
+border: none !important;
+}
+
+body {
+background: url(https://i.ibb.co/SBVmg2d/image.jpg) center no-repeat !important;
+background-attachment: fixed !important;
+background-size: 100% !important;
+}
+
+.card.blog_gifts {
+display: none !important;
+}
+
+.blog_leftsearch {
+display: none !important;
+}
+
+.card {
+border: none !important;
+}
+
+.card-body {
+list-style-type: none !important;
+padding: 20px !important;
+} 
+
+a.card-body {
+background: transparent !important;
+}
+
+.card-header {
+text-align: center !important;
+border-bottom: none !important;
+}
+
+.blog_leftphoto {
+margin-bottom: 10px !important;
+}
+
+img.photo {
+border: none !important;
+border-radius: 10px !important;
+box-shadow: 0 0 4px #280350 !important;
+margin- bottom: 8px !important;
+}
+
+.card.p-1 {
+padding-bottom: 10px !important;
+border-radius: 0px !important;
+}
+
+.seBlogColumnLeft {
+margin-left: 20px !important;
+background: rgba(40, 3, 80, 0.6) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important;
+border-radius: 30px !important;
+padding: 20px !important;
+}
+
+.card-subtitle.mb-2.text-muted.post_date {
+font-weight: bold !important;
+color: #fff !important;
+margin-top: 5px !important;
+margin-bottom: 20px !important;
+padding: 10px !important;
+border-bottom: 1px solid #fff !important;
+text-align: center !important;
+}
+
+.card-title {
+text-align: center !important;
+font-size: 26px !important;
+margin-bottom: 0px !important;
+}
+
+.card.mb-2.post_home {
+margin-bottom: 50px !important;
+}
+
+.post_image a img {
+margin-bottom: 8px !important;
+border-radius: 10px !important;
+box-shadow: 0 0 4px #280350 !important;
+}
+
+.category {
+text-shadow: none !important;
+margin-bottom: 10px !important;
+font-size: 15px !important;
+}
+
+.category a {
+text-shadow: none !important;
+font-size: 15px !important;
+}
+
+.category a:hover {
+text-shadow: 0 0 10px #fcfab5 !important;
+font-size: 15px !important;
+}
+
+.seBlogColumnRight {
+background: rgba(40, 3, 80, 0.6) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important;
+border-radius: 30px !important;
+width: 300px !important;
+height: 80% !important; 
+}
+
+.post_text.pl-3 {
+margin-bottom: 10px !important;
+}
+
+.modal-content {
+background: rgba(40, 3, 80) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important;
+border-radius: 30px !important;
+}
+
+.modal-header {
+border: none !important;
+}
+
+.modal-footer {
+border: none !important;
+}
+
+button.close {
+display: none !important;
+}
+
+button.btn.btn-secondary {
+background: transparent !important;
+text-shadow: 0 0 4px #280350 !important;
+border: none !important;
+color: #fff !important;
+}
+
+button.btn.btn-secondary:hover {
+background: transparent !important;
+color: #fff !important;
+text-shadow: 0 0 10px #fcfab5 !important;
+transition: 2s !important;
+}
+
+.button_down {
+outline: none !important;
+}
+
+.comment_headline {
+background: none !important;
+border: none !important;
+margin-top: 20px !important;
+}
+
+.profile_postcomment {
+background: transparent !important;
+border: none !important;
+}
+
+#postcomment_userphotos {
+width: 100px !important;
+background: transparent !important;
+border: none !important;
+}
+
+.userphoto_selected {
+background: #af7ce5 !important;
+}
+
+input#comment_submit.button {
+background: transparent !important;
+text-shadow: 0 0 4px #280350 !important;
+border: none !important;
+color: #fff !important;
+padding-left: 8px !important;
+padding-right: 8px !important;
+}
+
+input#comment_submit.button:hover {
+background: transparent !important;
+color: #fff !important;
+text-shadow: 0 0 10px #fcfab5 !important;
+transition: 2s;
+padding-left: 8px !important;
+padding-right: 8px !important;
+}
+
+div#TB_window {
+background: rgba(40, 3, 80) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important;
+border-radius: 10px !important;
+}
+
+div#TB_title {
+border: none !important;
+}
+
+input.button {
+background: transparent !important;
+text-shadow: 0 0 4px #280350 !important;
+border: none !important;
+color: #fff !important;
+padding-left: 8px !important;
+padding-right: 8px !important;
+}
+
+input.button:hover {
+background: transparent !important;
+color: #fff !important;
+text-shadow: 0 0 10px #fcfab5 !important;
+transition: 2s !important;
+padding-left: 8px !important;
+padding-right: 8px !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #af7ce5 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e286f !important;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2) !important;
+  background-color: #af7ce5 !important;
+}
+
+div#designs {
+position: absolute !important;
+}
+
+div.copyright {
+width: 80% !important;
+margin-top: 0px !important;
+}
+
+a.page-link {color: #fff !important; background: rgba(40, 3, 80, 0.6) !important;
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4) !important;
+border-radius: 30px !important; font-weight: bold !important;
+text-shadow: 0 0 10px #fcfab5 !important;
+}
+
+div#designs {
+    background: url(https://beon.vip/uploads_user/10000/9848/9623edc5229d3228864c17d65a27c530.png) left no-repeat !important;
+border: none !important;
+width: 50px !important;
+height: 41px !important;    
+}
+
+div#user_status,.blog_user_status {
+color: #fff !important;
+font-size: 12px !important;
+}
+
+div#comment_subscribe {
+display: none !important;
+}
+
+div#bbcode {
+background: #fff !important;
+width: auto !important;
+}
+
+.post_data a, p.card-link.post_views, .post_data, .profile_comment_links {
+color: #fff !important;
+}
+
+.like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before {
+color: #fff !important; 
+}
+
+.card-link.post_views {
+color: #fff !important;
+}
+
+a.card-link {
+color: #fff !important;
+}
+
+.card-link.post_likes {
+color: #fff !important;
+}
+
+.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:hover, a.nav-item.nav-link.active:hover, .card [onclick="$('#profile_viewers').toggle();"]:hover, a.page-link:hover, button.btn.btn-primary:hover, div#ajax_status a:hover, button.btn.btn-outline-success:hover, button.navbar-toggler:hover {
+background: transparent !important;
+}
+
+button.button_down:hover {
+background: url(https://i.ibb.co/sbtqdCm/image.png) no-repeat !important;
+}
