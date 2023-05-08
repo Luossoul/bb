@@ -383,3 +383,36 @@ background-attachment: fixed !important;
 background-size: 100% !important;
 }
  
+.show_menu.header-orange {
+background: transparent;
+text-align: center;
+text-shadow: 0 0 10px #fcfab5;
+}
+
+/*Мобильная версия*/
+
+#mobile_photo_wrap{background: rgba(40, 3, 80);}
+#mobile_menu .menu_item_dropdown a {background: rgba(40, 3, 80);}
+#mobile_menu .menu_item_dropdown a:hover {background: rgba(40, 3, 80);}
+.portal_spacer {background: rgba(40, 3, 80);}
+
+
+nav.top_menu .p-1 a {
+opacity: 0;}
+.top_menu img {
+opacity: 0;}
+
+/*Кнопка вниз*/
+.btn.btn-outline-success {border: none; text-align: center; color: #fff; text-shadow: 0 0 6px #fcfab5; font-weight: bold; box-shadow: none;}
+div#profile_profile {border: none;}  
+
+/*Написать в дневник*/
+button.btn.btn-primary {background: #c096eb; border: none; color: #fff; font-weght: bold;  text-shadow: 0 0 6px #fcfab5;}
+
+#mobile_menu {background: #030d23;}
+
+button.close { display: none;}
+
+div#user_status {
+width: 100%;
+}
