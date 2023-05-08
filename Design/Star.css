@@ -89,7 +89,6 @@ border: none !important;
 body {
 background: url(https://i.ibb.co/SBVmg2d/image.jpg) center no-repeat !important;
 background-attachment: fixed !important;
-background-size: 100% !important;
 }
 
 .card.blog_gifts {
@@ -421,3 +420,8 @@ width: 100%;
 .seBlogColumnLeft {
  width: 100%;
  }
+ 
+ .seBlogColumnRight {
+ width: 100%;
+ }
+ 
