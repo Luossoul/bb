@@ -376,3 +376,10 @@ background: transparent !important;
 button.button_down:hover {
 background: url(https://i.ibb.co/sbtqdCm/image.png) no-repeat !important;
 }
+
+body {
+background: url(https://i.ibb.co/XkC3Sfj/image.jpg) center top no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+}
+ 
