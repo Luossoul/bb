@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap') !important;
+ @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
 
 div, td, tr {
 font-family: 'Jura' !important;
@@ -88,7 +88,7 @@ border: none !important;
 
 body {
 background: url(https://i.ibb.co/SBVmg2d/image.jpg) center no-repeat !important;
-background-attachment: fixed !important;
+background-attachment: fixed !important; background-size: 100% !important;
 }
 
 .card.blog_gifts {
