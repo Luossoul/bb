@@ -377,6 +377,39 @@ display: none;
 color: #8352fa;
 }
 
+.left-menu__user-notification.left-menu__friends {
+border-right: 2px solid #45237c;
+border-left: 2px solid #45237c;
+border-bottom: 2px solid #45237c;
+border-top: 2px solid #45237c;
+border-radius: 20px 20px 20px 20px;
+background: linear-gradient(90deg, rgba(222,247,252,1) 0%, rgba(255,237,247,1) 100%);
+margin-bottom: 20px;
+}
+
+.left-menu__friends.left-menu__friends_offline {
+border-right: 2px solid #45237c;
+border-left: 2px solid #45237c;
+border-bottom: 2px solid #45237c;
+border-top: 2px solid #45237c;
+border-radius: 20px 20px 20px 20px;
+background: linear-gradient(90deg, rgba(222,247,252,1) 0%, rgba(255,237,247,1) 100%);
+margin-bottom: 20px;
+}
+
+div.post__mood {
+font-size: 12px;
+}
+div.post__musicplay {
+font-size: 12px;
+}
+div.post__wish {
+font-size: 12px;
+}
+div.post__tags-list {
+font-size: 12px;
+}
+
 @media (max-width: 700px){
 .left-menu {
 width: 100%;
