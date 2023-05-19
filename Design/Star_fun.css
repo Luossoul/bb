@@ -255,17 +255,6 @@ background: #8352fa;
 }
 
 .post-avatar {
-position: relative;
-}
-.post-avatar:before {
-content: url(https://i.ibb.co/M8wTwKf/376899521fea54b9aec83a6aabac91c2.png);
-position: absolute;
-bottom: 10px;
-left: 85px;
-padding-right: 10px;
-}
-
-.post-avatar {
 margin-right: 20px !important;
 }
 
