@@ -268,7 +268,7 @@ border-bottom: none;
 border-top: none;
 }
 
-.btn.btn-primary {
+button.btn.btn-primary {
 background: #7d66a3;
 text-shadow: 0 0 4px #280350;
 margin-top: 5px;
@@ -277,7 +277,7 @@ width: auto;
 border: none;
 }
 
-.btn.btn-primary:hover {
+button.btn.btn-primary:hover {
 text-shadow: 0 0 6px #fcfab5;
 font-weight: bold;
 background: #614a88;
