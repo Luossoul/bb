@@ -258,6 +258,58 @@ background: #8352fa;
 margin-right: 20px !important;
 }
 
+.modal-content {
+background: rgba(40, 3, 80);
+box-shadow: 0 0 3px 2px rgba(250, 247, 137, 0.4);
+border-radius: 30px;
+}
+
+.modal-header {
+border-bottom: none;
+}
+
+.modal-footer {
+border-top: none;
+}
+
+button.btn.btn-primary {
+background: #7d66a3;
+text-shadow: 0 0 4px #280350;
+margin-top: 5px;
+color: #fff;
+width: auto;
+border: none;
+border-radius: 0px;
+}
+
+button.btn.btn-primary:hover {
+text-shadow: 0 0 6px #fcfab5;
+font-weight: bold;
+background: #614a88;
+color: #fff;
+transition: 0.5s;
+border-radius: 0px;
+}
+
+button.btn.btn-secondary {
+background: #7d66a3;
+text-shadow: 0 0 4px #280350;
+margin-top: 5px;
+color: #fff;
+width: auto;
+border: none;
+border-radius: 0px;
+}
+
+button.btn.btn-secondary:hover {
+text-shadow: 0 0 6px #fcfab5;
+font-weight: bold;
+background: #614a88;
+color: #fff;
+transition: 0.5s;
+border-radius: 0px;
+}
+
 @media (max-width: 700px){
 .left-menu {
 width: 100%;
