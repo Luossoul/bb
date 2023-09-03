@@ -1,0 +1,381 @@
+* {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat996.cur), auto !important;}
+
+body { 
+background: #0f0c21; 
+}
+
+.menu__box  { 
+background: #0f0c21; 
+}
+
+.menu__item:hover {
+background: transparent;
+}
+
+span.comments_count span::before {
+font-size: 14px;
+} 
+
+span.comments_count a {
+font-size: 14px !important;
+} 
+
+.post-opt {
+font-size: 12px !important;
+} 
+
+[src="//beon.fun/i/logo2.png"] {
+display: none;
+}
+
+[href="https://beon.fun"]:before {
+content: url(https://i1.beon.fun/62/71/7162/37/806937/logo-luna.png);
+}
+
+.navbar-brand {
+font-size: 0px;
+}
+
+.m2 {
+display: none;
+}
+
+
+div, a  {
+color: #79819b !important;
+}
+
+.pagination-goto {
+color: #79819b;
+}
+
+.left-menu-text {
+color: #79819b !important;
+}
+
+
+a {
+color: #79819b;
+}
+
+a:hover {
+text-decoration: none !important;
+text-shadow: 0 0 6px #5e748c;
+color: #5e748c;
+font-weight: bold;
+transition: 0.5s;
+}
+
+a.post-title {
+text-decoration: none !important;
+}
+
+nav.navbar.navbar-expand-md.navbar-light.bg-white.shadow-sm { 
+background: #0f0c21;
+color: #79819b; 
+}
+
+.navbar-collapse a  {
+color: #79819b;
+}
+
+.py-4 {
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.crumbs {
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.content {
+margin-left: 15px;
+}
+
+.left-menu {
+background: url(https://i.ibb.co/GQfpdSG/1080x2248-Wallpaper-190.jpg) left top no-repeat fixed; 
+background-size: 30%;
+border-radius: 20px;
+padding: 10px;
+border: none !important;
+box-shadow: 1px 1px 6px #535b77;
+}
+
+.blog__last-comments {
+display: none !important;
+}
+
+.blog__iread {
+display: none;
+}
+
+h3.left-menu-text {
+text-align: center;
+margin: 20px;
+background: transparent !important;
+text-transform: uppercase;
+font-size: 15px;
+padding: 5px;
+text-shadow: 0 0 3px #79819b;
+color: #79819b;
+font-weight: bold;
+border-bottom: 1px solid #79819b;
+}
+
+.post-content.blog_total_counter {
+display: none;
+}
+
+.post-content {
+background: url(https://i.ibb.co/6B7Vv7X/image.png) top right no-repeat;
+background-size: 60%;
+border-radius: 20px;
+padding: 10px;
+border: none !important;
+box-shadow: 1px 1px 6px #535b77;
+}
+
+.comment-box {
+background: url(https://i.ibb.co/6B7Vv7X/image.png) top right no-repeat;
+background-size: 60%;
+border-radius: 20px;
+padding: 10px;
+border: none !important;
+box-shadow: 1px 1px 6px #535b77;
+}
+
+.comment-row {
+width: 90% !important;
+}
+
+.textareabg.p-1 {
+background: url(https://i.ibb.co/6B7Vv7X/image.png) top right no-repeat;
+background-size: 60%;
+border-radius: 15px;
+padding: 20px !important;
+border: none !important;
+box-shadow: 1px 1px 6px #535b77;
+}
+
+.textareabg  {
+background: url(https://i.ibb.co/6B7Vv7X/image.png) top right no-repeat;
+background-size: 60%;
+border-radius: 15px;
+padding: 20px !important;
+border: none !important;
+box-shadow: 1px 1px 6px #535b77;
+margin-top: 20px;
+}
+
+.modal-content {
+background: url(https://i.ibb.co/6B7Vv7X/image.png) top right no-repeat;
+background-size: 60%;
+background-color: #0f0c21;
+border-radius: 20px;
+padding: 10px;
+border: none !important;
+box-shadow: 1px 1px 6px #535b77;
+}
+
+.modal-header, .modal-footer {
+border: none;
+}
+
+.datebg {
+text-transform: lowercase;
+font-size: 14px;
+text-align: center;
+border-bottom: 1px solid #79819b;
+} 
+
+.post-avatar img {
+border-radius: 5px;
+border: 2px solid #5e748c;
+box-shadow: 0 0 6px #5e748c;
+margin-bottom: 5px;
+margin-right: 10px;
+} 
+
+.sign {
+margin-right: 10px;
+} 
+
+/*Кнопка удалить*/
+span[data-target="#deleteconfirmmodal"] {
+color: #79819b;
+text-decoration: none;
+}
+span[data-target="#deleteconfirmmodal"]:hover {
+text-decoration: none !important;
+text-shadow: 0 0 6px #5e748c;
+color: #5e748c;
+font-weight: bold;
+transition: 0.5s;
+}
+
+/*Кнопки*/
+input[type="submit"] {
+background: #79819b;
+margin-top: 5px;
+color: #0f0c21;
+width: auto;
+border: none;
+}
+
+input[type="submit"]:hover {
+background: #0f0c21;
+color: #79819b;
+transition: 0.5s;
+border: 1px solid #79819b;
+}
+
+/*Кнопка отмена*/
+input[type="button"] {
+background: #79819b;
+margin-top: 5px;
+color: #0f0c21;
+width: auto;
+border: none;
+}
+
+input[type="button"]:hover {
+background: #0f0c21;
+color: #79819b;
+transition: 0.5s;
+border: 1px solid #79819b;
+}
+
+/*Поля для текста*/
+input[type="text"] {
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 8px;
+border: 0px;
+text-transform: lowercase;
+color: #79819b !important;
+background-color: rgba(121, 129, 155, 0.3);
+outline: none;
+padding-left: 10px;
+}
+
+button.btn.btn-primary {
+background: #79819b;
+margin-top: 5px;
+color: #0f0c21;
+width: auto;
+border: none;
+border-radius: 0px !important;
+}
+
+button.btn.btn-primary:hover {
+background: #0f0c21;
+color: #79819b;
+transition: 0.5s;
+border: 1px solid #79819b;
+border-radius: 0px !important;
+}
+
+button.btn.btn-secondary {
+background: #79819b;
+margin-top: 5px;
+color: #0f0c21;
+width: auto;
+border: none;
+border-radius: 0px !important;
+}
+
+button.btn.btn-secondary:hover {
+background: #0f0c21;
+color: #79819b;
+transition: 0.5s;
+border: 1px solid #79819b;
+border-radius: 0px !important;
+}
+
+.btn.btn-outline-primary.mb-3 {
+border: none;
+}
+
+.btn.btn-outline-primary.mb-3:hover {
+background: none;
+}
+
+/*Выбранная*/
+.avatar-select-label-selected {
+border: 4px solid #79819b;
+margin-bottom: 10px !important;
+background: #79819b;
+}
+
+.avatar-select-label {
+margin-bottom: 10px !important;
+background:  #0f0c21;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #0f0c21 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #79819b !important;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  background-color: #0f0c21;
+}
+
+::-webkit-scrollbar {
+  background: #0f0c21 !important;
+}
+
+::-webkit-scrollbar-corner {
+  background: #fff !important;
+}
+
+@media (max-width: 700px){
+.left-menu {
+width: 100%;
+padding: 10px !important;
+margin-bottom: 20px !important;
+background-size: 100%;
+}
+
+main.py-4 {
+width: 100%;
+}
+
+.content {
+width: 100%;
+margin-left: 0px;
+}
+
+.textareabg.p-1 {
+width: 95%;
+margin-left: 0px;
+background-size: 100%;
+}
+
+.post-content {
+background-size: 100%;
+}
+
+.comment-box {
+background-size: 100%;
+}
+
+.modal-content  {
+background-size: 100%;
+}
+
+.textareabg  {
+background-size: 100%;
+}
+
+.avatar-select-label {
+margin-right: 10px !important;
+}
