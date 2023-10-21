@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+
+[src="//beon.fun/i/logo2.png"] {
+display: none;
+}
+
+[href="https://beon.fun"]:before {
+content: url(https://i.ibb.co/tXTqCrT/image.png);
+}
+
+.navbar-brand {
+font-size: 0px;
+}
+
+.post-content.blog_total_counter  {
+font-size:0;
+background:url(https://i.ibb.co/Q6G5CkC/2.jpg) no-repeat center;
+background-size: cover;
+height: 230px;
+}
+
+li {
+list-style: none;
+}
+
+div#app {
+padding:0 !important;
+}
+
+.m2 {
+display: none;
+}
+
+*:focus-visible {
+outline: none;
+}
+
+.bg-white {
+background: #ffcac4;
+}
+
+div.pc-menu {
+color: #fff !important;
+}
+
+.bg-white a {
+color: #fff !important; 
+}
+.bg-white a:hover {
+text-shadow: 0 0 6px #d0877e;
+}
+
+.shadow-sm {
+box-shadow: none !important;
+}
+
+div, a {
+font-family: 'Jura';
+color: #e8a39b;
+}
+
+h3.left-menu-text  {
+color: #f9bcb5 !important;
+}
+
+a:hover {
+color: #e6a29a;
+transition: 0.5s;
+text-decoration: none;
+text-shadow: 0 0 1px #f3a89f;
+}
+
+body {
+background: url(https://i.ibb.co/f0VY6df/2.jpg) left top fixed;
+}
+
+.py-4 {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.crumbs  {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.content {
+margin-left: 40px;
+}
+
+.post-header a{
+text-decoration: none;
+}
+
+.post-content {
+background: linear-gradient(#ffeae7, #fff);
+border-radius: 10px;
+box-shadow: 1px 2px 10px #ffd7d2;
+margin-bottom: 20px !important;
+border-left: 1px dashed #f3a89f;
+border-right: 1px dashed #f3a89f;
+border-bottom: 1px dashed #f3a89f;
+padding: 10px;
+}
+
+#usermenu {
+border: 1px solid #f3a89f;
+}
+
+.datebg {
+background: linear-gradient(to right, #ffcac4 0%, transparent 100%);
+border-radius: 10px;
+color: #fff;
+padding-left: 15px !important;
+}
+
+.blog__last-comments, .blog__iread, .blog__read-me {
+display: none;
+}
+
+.textareabg.p-1 {
+background: linear-gradient(#ffeae7, #fff);
+border-radius: 10px;
+box-shadow: 1px 2px 10px #ffd7d2;
+margin-bottom: 20px !important;
+border-left: 1px dashed #f3a89f;
+border-right: 1px dashed #f3a89f;
+border-bottom: 1px dashed #f3a89f;
+padding: 10px !important;
+}
+
+.comment-content {
+background: linear-gradient(#ffeae7, #fff);
+border-radius: 10px;
+box-shadow: 1px 2px 10px #ffd7d2;
+margin-bottom: 20px !important;
+border-left: 1px dashed #f3a89f;
+border-right: 1px dashed #f3a89f;
+border-bottom: 1px dashed #f3a89f;
+padding: 10px !important;
+}
+.textareabg {
+background: linear-gradient(#ffeae7, #fff);
+border-radius: 10px;
+box-shadow: 1px 2px 10px #ffd7d2;
+margin-bottom: 20px !important;
+border-left: 1px dashed #f3a89f;
+border-right: 1px dashed #f3a89f;
+border-bottom: 1px dashed #f3a89f;
+padding: 10px !important;
+}
+
+div.left-menu {
+background: #fff;
+box-shadow: 1px 2px 10px #ffd7d2;
+border: none !important;
+border-radius: 10px;
+padding: 5px;
+} 
+
+h3.left-menu-text {
+background: transparent !important;
+color: #e8a39b;
+padding: 10px;
+text-align: center;
+text-transform: lowercase;
+font-size: 16px;
+font-weight: bold;
+border-bottom: 1px dashed #ffcac4;
+}
+
+.post-avatar img {
+border: 1px solid #ef9e95;
+border-radius: 5px;
+}
+
+/*Кнопки*/
+input[type="submit"] {
+background: transparent;
+margin-top: 5px;
+color: #e8a39b;
+width: auto;
+border: 1px dashed #ffcac4;
+}
+
+input[type="submit"]:hover {
+background: #ffcac4;
+color: #fff;
+border: 1px dashed #ffcac4;
+transition: 0.5s;
+}
+
+/*Кнопка отмена*/
+input[type="button"] {
+background: transparent;
+margin-top: 5px;
+color: #e8a39b;
+width: auto;
+border: 1px dashed #ffcac4;
+}
+
+input[type="button"]:hover {
+background: #ffcac4;
+color: #fff;
+border: 1px dashed #ffcac4;
+transition: 0.5s;
+}
+
+/*Кнопка удалить*/
+span[data-target="#deleteconfirmmodal"] {
+color: #e8a39b;
+text-decoration: none;
+}
+span[data-target="#deleteconfirmmodal"]:hover {
+color: #e6a29a;
+transition: 0.5s;
+text-decoration: none;
+text-shadow: 0 0 1px #f3a89f;
+}
+
+/*Поля для текста*/
+input[type="text"] {
+margin-top: 10px;
+margin-bottom: 10px;
+border: 0px;
+outline: none;
+padding-left: 5px;
+background: #ffdad6;
+margin-right: 5px;
+}
+
+/*Плеер*/
+div#beon-fnplayer {background: transparent; margin-bottom: 10px;}
+#fnplayer-slider > span {font-size:0px !important;} 
+#fnplayer-slider {background-color: #f9bcb5 !important; height:4px}
+/*Здесь*/
+#fnplayer-slider-inner {width: 0%; background-color: #fff; height:5px}
+#fnplayer-volume {background-color: #fff;}
+#fnplayer-volume-inner {width: 100%; background-color: #f9bcb5 !important; height:4px !important; margin-bottom:3px; border: none;}
+#fnplayer-volume-mask {border: none !important;}
+#fnplayer-stop {border: 0; background: #f9bcb5 !important; margin-bottom: 1px;}
+#fnplayer-play {border-color: transparent transparent transparent #f9bcb5 !important; margin-bottom: 1px;}
+
+/*Прокрутка*/
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {display: none;}
+::-webkit-scrollbar {width: 17px; height: 17px; background-color: #f9bcb5;}
+::-webkit-scrollbar-thumb {border: 6px solid #fff; background-color: #f9bcb5; min-height: 24px; min-width: 24px;}
+::-webkit-scrollbar-track {border: 8px solid #fff; background-color: #f9bcb5;}
+
+/*Выбранная*/
+.avatar-select-label-selected {
+border: 4px solid #f9bcb5;
+margin-bottom: 10px !important;
+background: ##f9bcb5;
+}
+
+.avatar-select-label {
+margin-bottom: 10px !important;
+background:  #0f0c21;
+}
+
+/*Доп. окошки*/
+.modal-content {
+background: linear-gradient(#ffeae7, #fff);
+border-radius: 10px;
+box-shadow: 1px 2px 10px #ffd7d2;
+margin-bottom: 20px !important;
+border-left: 1px dashed #f3a89f;
+border-right: 1px dashed #f3a89f;
+border-bottom: 1px dashed #f3a89f;
+padding: 10px !important;
+}
+
+button.btn.btn-primary {
+background: transparent;
+margin-top: 5px;
+color: #e8a39b;
+width: auto;
+border: 1px dashed #ffcac4;
+}
+
+button.btn.btn-primary:hover {
+background: #ffcac4;
+color: #fff;
+border: 1px dashed #ffcac4;
+transition: 0.5s;
+}
+
+button.btn.btn-secondary {
+background: transparent;
+margin-top: 5px;
+color: #e8a39b;
+width: auto;
+border: 1px dashed #ffcac4;
+}
+
+button.btn.btn-secondary:hover {
+background: #ffcac4;
+color: #fff;
+border: 1px dashed #ffcac4;
+transition: 0.5s;
+}
+
+.btn.btn-outline-primary.mb-3 {
+border: none;
+}
+
+.btn.btn-outline-primary.mb-3:hover {
+background: none;
+}
+
+.quotation {
+border-left: 3px solid #ffcac4;
+background: #fde0dd;
+}
+
+.menu__box {
+background: linear-gradient(#ffeae7, #fff);
+border-radius: 10px;
+box-shadow: 1px 2px 10px #ffd7d2;
+margin-bottom: 20px !important;
+border-left: 1px dashed #f3a89f;
+border-right: 1px dashed #f3a89f;
+border-bottom: 1px dashed #f3a89f;
+padding: 10px !important;
+font-family: 'Jura';
+}
+
+.menu__item:hover {
+background: transparent;
+text-shadow: 0 0 1px #f3a89f !important;
+font-family: 'Jura';
+}
+
+a.menu__item {
+color: #e8a39b !important;
+font-weight: normal;
+font-family: 'Jura';
+}
+
+.left-menu-text {
+text-align: center;
+}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+background-color: #fff;
+}
+
+@media (max-width: 700px){
+.left-menu {
+width: 100%;
+}
+
+main.py-4 {
+width: 100%;
+}
+
+.content {
+margin-left: 0px;
+}
+
+.crumbs  {
+width: 100%;
+}
+
+.avatar-select-label {
+margin-right: 10px !important;
+}
+
+.post-content.blog_total_counter  {
+font-size:0;
+background:url(https://i.ibb.co/Q6G5CkC/2.jpg) no-repeat left;
+background-size: cover;
+height: 230px;
+}
+
+.blog__last-comments, .blog__iread {
+display: none !important;
+}
