@@ -12,6 +12,13 @@ color: #fff;
 display: none;
 }
 
+[src="/i/halloween/cat-ghost.png"] {
+display: none;
+}
+[src="/i/logo2.svg"] {
+display: none;
+}
+
 [href="https://beon.fun"]:before {
 content: url(https://beon.vip/uploads_user/10000/9848/d920df5e07c4778671a03964a100519f.png);
 }
