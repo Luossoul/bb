@@ -8,6 +8,13 @@ display: none;
 content: url(https://i.ibb.co/tXTqCrT/image.png);
 }
 
+[src="/i/halloween/cat-ghost.png"] {
+display: none;
+}
+[src="/i/logo2.svg"] {
+display: none;
+}
+
 .navbar-brand {
 font-size: 0px;
 }
