@@ -30,6 +30,13 @@ display: none;
 content: url(https://i1.beon.fun/62/71/7162/20/843220/logo.png);
 }
 
+[src="/i/logo2-deer.png"] {
+display: none;
+}
+.font-snowblue {
+display: none;
+}
+
 .navbar-brand {
 font-size: 0px;
 }
