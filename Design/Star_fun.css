@@ -23,6 +23,13 @@ display: none;
 content: url(https://beon.vip/uploads_user/10000/9848/d920df5e07c4778671a03964a100519f.png);
 }
 
+[src="/i/logo2-deer.png"] {
+display: none;
+}
+.font-snowblue {
+display: none;
+}
+
 .navbar-brand {
 font-size: 0px;
 }
