@@ -16,6 +16,13 @@ display: none;
 display: none;
 }
 
+[src="/i/logo2-deer.png"] {
+display: none;
+}
+.font-snowblue {
+display: none;
+}
+
 .navbar-brand {
 font-size: 0px;
 }
