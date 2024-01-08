@@ -39,7 +39,7 @@ text-decoration: none;
 
 /*Фон*/
 body {
-background: url(https://i.ibb.co/qgT3wW1/image.jpg) left top no-repeat fixed;
+background: url(https://i.ibb.co/qgT3wW1/image.jpg) left top no-repeat fixed, url(https://i.ibb.co/2h3Zb7S/2-1.jpg) right top no-repeat fixed !important;
 }
 
 .crumbs {
