@@ -59,14 +59,6 @@ width: 80%;
 margin-left: 10px;
 }
 
-/*Картинка перед записями, можно менять*/
-.post-content.blog_total_counter  {
-font-size:0;
-background:url(https://i.ibb.co/MDYCMZV/2.jpg) no-repeat center;
-background-size: cover;
-height: 230px;
-}
-
 /*Убираем 100500 вариантов картинок лого - нг, хэллоуин и т.д.*/
 [src="//beon.fun/i/logo2.png"] {
 display: none;
