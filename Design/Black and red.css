@@ -1,0 +1,551 @@
+/*Убирает отступы для шапки со всех сторон*/
+div#app {
+padding: 0 !important;
+}
+
+.bg-white {
+background: #242424;
+}
+
+div.pc-menu {
+color: #fff !important;
+}
+
+.bg-white a {
+color: #fff !important; 
+}
+.bg-white a:hover {
+color: #c5211d !important;
+text-shadow: 0 0 1px #c5211d;
+transition: 0.5s;
+text-decoration: none;
+}
+
+/*Логотип*/
+[href="https://beon.fun"]:before {
+content: url(https://i.ibb.co/6vDyvxS/image.png);
+}
+
+a {
+color: #000;
+}
+
+a:hover {
+color: #a20a06;
+text-shadow: 0 0 1px #940a07;
+transition: 0.5s;
+text-decoration: none;
+}
+
+/*Фон*/
+body {
+background: url(https://i.ibb.co/qgT3wW1/image.jpg) left top no-repeat fixed;
+}
+
+.crumbs {
+text-align: right;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
+
+.py-4 {
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
+
+.content {
+margin-left: 10px;
+}
+
+/*Картинка перед записями, можно менять*/
+.post-content.blog_total_counter  {
+font-size:0;
+background:url(https://i.ibb.co/MDYCMZV/2.jpg) no-repeat center;
+background-size: cover;
+height: 230px;
+}
+
+/*Убираем 100500 вариантов картинок лого - нг, хэллоуин и т.д.*/
+[src="//beon.fun/i/logo2.png"] {
+display: none;
+}
+
+[src="/i/halloween/cat-ghost.png"] {
+display: none;
+}
+
+[src="/i/logo2.svg"] {
+display: none;
+}
+
+[src="/i/logo2-deer.png"] {
+display: none;
+}
+.font-snowblue {
+display: none;
+}
+
+.navbar-brand {
+font-size: 0px;
+}
+
+/*Надпись под лого – Привет,....*/
+.m2 {
+display: none;
+}
+
+/*черные обводки внутри блоков*/
+*:focus-visible {
+outline: none;
+}
+
+/*Убираем буллиты верхнего меню*/
+li {
+list-style: none;
+}
+
+/*Левое меню*/
+
+.left-menu {
+border: 1px solid #242424 !important;
+background: rgba(255, 255, 255);
+}
+
+h3.left-menu-text {
+background: #242424 !important;
+text-transform: lowercase;
+text-align: center;
+padding: 3px;
+font-size: 15px;
+}
+
+.blog__last-comments, .blog__iread, .blog__read-me {
+display: none;
+}
+
+/*Записи*/
+.post-content {
+overflow: hidden;
+min-height: auto;
+margin: 0px !important;
+background: url(https://i.ibb.co/dmpn038/2.jpg) #242424 right top fixed no-repeat;
+padding: 10px !important;
+color: #fff;
+}
+
+.post-content a {
+color: #fff;
+}
+
+.post-row {
+border: 3px double #242424;
+padding: 10px;
+background: #fff;
+color: #000;
+}
+.post-row a {
+color: #000;
+}
+
+/*Заголовок записи*/
+.post-header a {
+color: #fff;
+text-decoration: none;
+font-size: 15px;
+}
+
+.post-header a:hover {
+color: #c5211d;
+text-shadow: 0 0 2px #940a07;
+transition: 0.5s;
+text-decoration: none;
+font-size: 15px;
+}
+
+.post-header {
+color: #fff;
+}
+
+/*подпись к записи со временем и доступом*/
+.post-title-date {
+color: #999;
+}
+
+.small-text {
+color: #fff;
+}
+
+.user.post-title-user {
+color: #999;
+}
+
+.fas.fa-chevron-down {
+color: #999;
+}
+
+/*Комментарии*/
+.comment-box {
+overflow: hidden;
+min-height: auto;
+margin: 0px !important;
+background: url(https://i.ibb.co/dmpn038/2.jpg) #242424 right top fixed no-repeat;
+padding: 10px !important;
+color: #fff;
+}
+
+.comment-content {
+border: 3px double #242424;
+padding: 10px;
+background: #fff;
+}
+
+.comment-row {
+color: #000;
+}
+
+/*Дата*/
+.datebg {
+color: #242424;
+text-align: center;
+border-bottom: 1px solid #242424;
+font-size: 15px;
+}
+
+.textareabg.p-1 {
+overflow: hidden;
+min-height: auto;
+margin: 0px !important;
+background: url(https://i.ibb.co/dmpn038/2.jpg) #242424 right top fixed no-repeat;
+padding: 10px !important;
+color: #fff;
+}
+
+.textareabg {
+overflow: hidden;
+min-height: auto;
+margin: 0px !important;
+background: url(https://i.ibb.co/dmpn038/2.jpg) #242424 right top fixed no-repeat;
+padding: 10px !important;
+color: #fff;
+}
+
+/*Прокрутка*/
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #242424 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 9px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #242424;
+    border-radius: 0px;
+    border: 2px double #ffffff;
+  }
+
+/*Кнопки*/
+input[type="submit"] {
+background: transparent;
+margin-top: 5px;
+color: #999;
+width: auto;
+border: 1px solid #999;
+}
+
+input[type="submit"]:hover {
+background: #c5211d;
+color: #fff;
+border: 1px solid #c5211d;
+transition: 0.5s;
+}
+
+/*Кнопка отмена*/
+input[type="button"] {
+background: transparent;
+margin-top: 5px;
+color: #999;
+width: auto;
+border: 1px solid #999;
+}
+
+input[type="button"]:hover {
+background: #c5211d;
+color: #fff;
+border: 1px solid #c5211d;
+transition: 0.5s;
+}
+
+/*Кнопка удалить*/
+span[data-target="#deleteconfirmmodal"] {
+color: #000;
+text-decoration: none;
+}
+span[data-target="#deleteconfirmmodal"]:hover {
+color: #a20a06;
+text-shadow: 0 0 1px #940a07;
+transition: 0.5s;
+text-decoration: none;
+}
+
+/*Поля для текста*/
+input[type="text"] {
+margin-top: 10px;
+margin-bottom: 10px;
+border: 0px;
+outline: none;
+padding-left: 5px;
+background: rgba(153, 153, 153, 0.3);
+margin-right: 5px;
+color: #fff;
+}
+
+/*Страницы*/
+.pagination-goto {
+display: none;
+}
+.pagination {
+padding-left: 10px;
+}
+
+/*Обводка на аве*/
+.post-avatar img {
+border: 1px solid #a20a06;
+}
+
+/*Выбранная*/
+.avatar-select-label-selected {
+border: 4px solid #c5211d;
+margin-bottom: 10px !important;
+}
+
+.avatar-select-label {
+margin-bottom: 10px !important;
+}
+
+.avatar-select-list {
+background: #242424;
+padding-top: 5px;
+}
+
+/*Доп. окошки*/
+.modal-content {
+background: fff;
+margin-bottom: 20px !important;
+border: 1px solid #242424 !important;
+border-radius: 0px !important;
+padding: 10px !important;
+}
+
+button.btn.btn-primary {
+background: transparent;
+margin-top: 5px;
+color: #999;
+width: auto;
+border: 1px solid #999;
+border-radius: 0px;
+}
+
+button.btn.btn-primary:hover {
+background: #c5211d;
+color: #fff;
+border: 1px solid #c5211d;
+transition: 0.5s;
+border-radius: 0px;
+}
+
+button.btn.btn-secondary {
+background: transparent;
+margin-top: 5px;
+color: #999;
+width: auto;
+border: 1px solid #999;
+border-radius: 0px;
+}
+
+button.btn.btn-secondary:hover {
+background: #c5211d;
+color: #fff;
+border: 1px solid #c5211d;
+transition: 0.5s;
+border-radius: 0px;
+}
+
+.btn.btn-outline-primary.mb-3 {
+border: none;
+}
+
+.btn.btn-outline-primary.mb-3:hover {
+background: none;
+}
+
+.modal-header {
+border: none;
+}
+
+.modal-footer  {
+border: none;
+}
+
+/*Цитирование*/
+.quotation {
+border-left: 3px solid #c5211d;
+background: rgba(197, 33, 29, 0.2);
+}
+
+/*Плеер*/
+div#beon-fnplayer {
+background: transparent; 
+margin-bottom: 10px;
+}
+#fnplayer-slider > span {
+font-size: 0px !important;
+} 
+#fnplayer-slider {
+background-color: #242424 !important; 
+height: 4px;
+}
+#fnplayer-slider-inner {
+background-color: #c5211d; 
+height: 4px;
+}
+
+#fnplayer-volume {
+background: rgba(153, 153, 153, 0.3);
+height: 4px !important; 
+} 
+
+#fnplayer-volume-inner {
+width: 100%; 
+background-color: #242424 !important; 
+height: 4px !important; 
+border: none;
+}
+#fnplayer-volume-mask {
+border: none !important;
+}
+#fnplayer-stop {
+border: none;
+background: #242424 !important; 
+margin-bottom: 1px;
+}
+#fnplayer-play {
+border-color: transparent transparent transparent #242424 !important; 
+margin-bottom: 1px;
+}
+
+/*Моб.*/
+@media (max-width: 700px){
+
+body {
+background: #fff;
+}
+
+.left-menu {
+width: 100%;
+}
+
+main.py-4 {
+width: 100%;
+}
+
+.content {
+margin: 0px;
+width: 100%;
+background: url(https://i.ibb.co/dtDMwMj/image.jpg) #242424 right top fixed no-repeat;
+background-size: cover;
+}
+
+.post-content {
+background: url(https://i.ibb.co/dtDMwMj/image.jpg) #242424 right top fixed no-repeat;
+background-size: cover;
+}
+
+.crumbs  {
+width: 100%;
+}
+
+.datebg {
+color: #fff;
+text-align: center;
+border-bottom: 1px solid #fff;
+font-size: 15px;
+}
+
+.post-avatar img {
+width: 80px !important;
+}
+
+.avatar-select-label {
+margin-right: 10px !important;
+}
+
+.blog__last-comments, .blog__iread, .blog__read-me {
+display: none !important;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+background-color: #fff;
+}
+
+.menu__box {
+background: #242424;
+border-radius: 0px;
+margin-bottom: 20px !important;
+border: 1px solid #242424;
+padding: 10px !important;
+}
+
+.menu__item:hover {
+background: transparent;
+}
+
+a.menu__item {
+font-weight: normal;
+}
+
+.textareabg.p-1 {
+background: url(https://i.ibb.co/dtDMwMj/image.jpg) #242424 right top fixed no-repeat;
+background-size: cover;
+}
+
+.textareabg {
+background: url(https://i.ibb.co/dtDMwMj/image.jpg) #242424 right top fixed no-repeat;
+background-size: cover;
+}
+
+.comment-box {
+background: url(https://i.ibb.co/dtDMwMj/image.jpg) #242424 right top fixed no-repeat;
+background-size: cover;
+}
+
+.menu__box {
+padding-top: 10% !important;
+padding-right: 10% !important;
+}
+
+span.comments_count span::before {
+font-size: 12px !important;
+} 
+
+span.comments_count a  {
+font-size: 12px !important;
+}
+
+.post-opt {
+font-size: 9px !important;
+}
+
+.post-opt.col-12.col-md-6 {
+padding-left: 15px;
+padding-right: 0px;
+margin-bottom: 10px;
+}
